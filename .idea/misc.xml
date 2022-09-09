@@ -46,6 +46,7 @@
         <entry key="..\:/Users/Chris/Documents/GitHub/puredriveapp/app/src/main/res/layout/welcome.xml" value="0.26927083333333335" />
         <entry key="..\:/Users/Chris/Documents/GitHub/puredriveapp/app/src/main/res/layout/welcome_2.xml" value="0.25555555555555554" />
         <entry key="..\:/Users/Chris/Documents/GitHub/puredriveapp/app/src/main/res/menu/bot_menu.xml" value="0.26875" />
+<<<<<<< HEAD
         <entry key="..\:/Users/Chris/Documents/puredriveapp/app/src/main/res/layout/activity_main.xml" value="0.1897644927536232" />
         <entry key="..\:/Users/Chris/Documents/puredriveapp/app/src/main/res/layout/activity_sign_in.xml" value="0.1897644927536232" />
         <entry key="..\:/Users/Chris/Documents/puredriveapp/app/src/main/res/layout/card_layout.xml" value="0.1897644927536232" />
@@ -59,6 +60,30 @@
         <entry key="..\:/Users/Chris/Documents/puredriveapp/app/src/main/res/layout/staff_signup_3.xml" value="0.26927083333333335" />
         <entry key="..\:/Users/Chris/Documents/puredriveapp/app/src/main/res/layout/user_profile.xml" value="0.13095238095238096" />
         <entry key="..\:/Users/Chris/Documents/puredriveapp/app/src/main/res/layout/welcome.xml" value="0.22" />
+=======
+        <entry key="..\:/Users/jemma_6i2adz5/Documents/puredriveapp/app/src/main/res/drawable/sel_doc_bg.xml" value="0.2555" />
+        <entry key="..\:/Users/jemma_6i2adz5/Documents/puredriveapp/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/jemma_6i2adz5/Documents/puredriveapp/app/src/main/res/layout/activity_sign_in.xml" value="0.25" />
+        <entry key="..\:/Users/jemma_6i2adz5/Documents/puredriveapp/app/src/main/res/layout/blank_desc.xml" value="0.25" />
+        <entry key="..\:/Users/jemma_6i2adz5/Documents/puredriveapp/app/src/main/res/layout/booking_availability.xml" value="0.1" />
+        <entry key="..\:/Users/jemma_6i2adz5/Documents/puredriveapp/app/src/main/res/layout/card_layout.xml" value="0.25" />
+        <entry key="..\:/Users/jemma_6i2adz5/Documents/puredriveapp/app/src/main/res/layout/payment_1.xml" value="0.25" />
+        <entry key="..\:/Users/jemma_6i2adz5/Documents/puredriveapp/app/src/main/res/layout/payment_cash.xml" value="0.25" />
+        <entry key="..\:/Users/jemma_6i2adz5/Documents/puredriveapp/app/src/main/res/layout/payment_gcash.xml" value="0.25" />
+        <entry key="..\:/Users/jemma_6i2adz5/Documents/puredriveapp/app/src/main/res/layout/payment_paymaya.xml" value="0.25" />
+        <entry key="..\:/Users/jemma_6i2adz5/Documents/puredriveapp/app/src/main/res/layout/rental_signup_1.xml" value="0.25" />
+        <entry key="..\:/Users/jemma_6i2adz5/Documents/puredriveapp/app/src/main/res/layout/staff_signup_1.xml" value="0.25" />
+        <entry key="..\:/Users/jemma_6i2adz5/Documents/puredriveapp/app/src/main/res/layout/staff_signup_2.xml" value="0.25" />
+        <entry key="..\:/Users/jemma_6i2adz5/Documents/puredriveapp/app/src/main/res/layout/staff_signup_3.xml" value="0.25" />
+        <entry key="..\:/Users/jemma_6i2adz5/Documents/puredriveapp/app/src/main/res/layout/staff_signup_4.xml" value="0.25" />
+        <entry key="..\:/Users/jemma_6i2adz5/Documents/puredriveapp/app/src/main/res/layout/staff_signup_5.xml" value="0.1" />
+        <entry key="..\:/Users/jemma_6i2adz5/Documents/puredriveapp/app/src/main/res/layout/supra_desc.xml" value="0.25" />
+        <entry key="..\:/Users/jemma_6i2adz5/Documents/puredriveapp/app/src/main/res/layout/supra_desc3.xml" value="0.25" />
+        <entry key="..\:/Users/jemma_6i2adz5/Documents/puredriveapp/app/src/main/res/layout/supra_desc_2.xml" value="0.25" />
+        <entry key="..\:/Users/jemma_6i2adz5/Documents/puredriveapp/app/src/main/res/layout/upload_files.xml" value="0.25" />
+        <entry key="..\:/Users/jemma_6i2adz5/Documents/puredriveapp/app/src/main/res/layout/view_doc.xml" value="0.25" />
+        <entry key="..\:/Users/jemma_6i2adz5/Documents/puredriveapp/app/src/main/res/layout/vpi_desc.xml" value="0.25" />
+>>>>>>> e66e60bce9d0f403a119dd425a4e98655d94dab1
         <entry key="..\:/puredriveapp/app/src/main/res/drawable-nodpi/color_shape.xml" value="0.316" />
         <entry key="..\:/puredriveapp/app/src/main/res/drawable-v24/_bg__messages___conversations_list___light___iphone_shape.xml" value="0.316" />
         <entry key="..\:/puredriveapp/app/src/main/res/drawable-v24/avatar_mask_ek1_shape.xml" value="0.316" />

@@ -81,6 +81,56 @@
             android:label="StaffSignUp5Activity"/>
 
         <activity
+            android:name=".payment_cash"
+            android:label="payment_cash"/>
+
+        <activity
+            android:name=".payment_gcash"
+            android:label="payment_gcash"/>
+
+        <activity
+            android:name=".payment_paymaya"
+            android:label="payment_paymaya"/>
+
+        <activity
+            android:name=".payment_1"
+            android:label="payment_1"/>
+
+        <activity
+            android:name=".booking_availability"
+            android:label="booking_availability"/>
+
+        <activity
+            android:name=".blank_desc"
+            android:label="blank_desc"/>
+
+        <activity
+            android:name=".vpi_desc"
+            android:label="vpi_desc"/>
+
+        <activity
+            android:name=".supra_desc"
+            android:label="supra_desc"/>
+
+
+        <activity
+            android:name=".supra_desc_2"
+            android:label="supra_desc_2"/>
+
+        <activity
+            android:name=".supra_desc3"
+            android:label="supra_desc3"/>
+
+        <activity
+            android:name=".view_doc"
+            android:label="view_doc"/>
+
+        <activity
+            android:name=".upload_files"
+            android:label="upload_files"/>
+
+
+        <activity
             android:name=".SignInActivity"
             android:label="SignInActivity"/>
 
