@@ -25,14 +25,6 @@
         -->
 
         <activity
-            android:name=".MainActivity"
-            android:label="MainActivity"/>
-
-        <activity
-            android:name=".SignInActivity"
-            android:label="SignInActivity"/>
-
-        <activity
             android:name=".CustomerSignUp1Activity"
             android:label="CustomerSignUp1Activity"/>
 
@@ -70,7 +62,15 @@
 
         <activity
             android:name=".GetStartedActivity"
-            android:label="GetStartedActivity"
+            android:label="GetStartedActivity"/>
+
+        <activity
+            android:name=".SignInActivity"
+            android:label="SignInActivity"/>
+
+        <activity
+            android:name=".MainActivity"
+            android:label="MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

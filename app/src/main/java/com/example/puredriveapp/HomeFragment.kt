@@ -7,6 +7,10 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.google.gson.GsonBuilder
+import kotlinx.android.synthetic.main.activity_sign_in.*
+import okhttp3.*
+import okio.IOException
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -37,6 +41,7 @@ class HomeFragment : Fragment() {
             param1 = it.getString(ARG_PARAM1)
             param2 = it.getString(ARG_PARAM2)
         }
+        fetchVehicleHome()
     }
 
     override fun onCreateView(
@@ -68,6 +73,31 @@ class HomeFragment : Fragment() {
     }
 
     private fun fetchVehicleHome(){
+        val url = "https://my-python-test-api.herokuapp.com/api/vehicle"
+        val request = Request.Builder().url(url).build()
+        val client = OkHttpClient()
+
+        client.newCall(request).enqueue(object: Callback {
+            override fun onResponse(call: Call, response: Response) {
+
+                try{
+                    val body = response?.body?.string()
+                    println(body)
+
+                    val gson = GsonBuilder().create()
+
+                    val vehicle = gson.fromJson(body, Vehicle::class.java)
+
+                    println(vehicle.toString())
+                }catch (e: Exception){
+                    e.printStackTrace()
+                }
+
+            }
+            override fun onFailure(call: Call, e: IOException) {
+                println("Failed to execute request")
+            }
+        })
 
     }
 

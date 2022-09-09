@@ -18,9 +18,9 @@ class VehicleRecyclerAdapter(private val vehicleList: ArrayList<Vehicle>) : Recy
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val currentVehicle = vehicleList[position]
-        holder.vehicleName.text = currentVehicle.Name
-        holder.vehiclePrice.text = currentVehicle.Price
-        holder.vehicleLocation.text = currentVehicle.Location
+        holder.vehicleName.text = String.format("%s %s",currentVehicle.Brand,currentVehicle.Model)
+        holder.vehiclePrice.text = currentVehicle.RentCost.toString()
+        holder.vehicleLocation.text = String.format("%s, %s, %s",currentVehicle.Rental!!.City,currentVehicle.Rental!!.State,currentVehicle.Rental!!.Country)
     }
 
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){

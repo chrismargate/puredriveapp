@@ -10,7 +10,6 @@ class CustomerSignUp2Activity : AppCompatActivity(){
     override fun onCreate(savedInstanceState: Bundle?){
         super.onCreate(savedInstanceState)
         setContentView(R.layout.customer_signup_2)
-        println("Hello Jemma")
         ibtnNext.setOnClickListener{
             startActivity(Intent(this,MainActivity::class.java))
         }
