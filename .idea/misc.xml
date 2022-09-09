@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Chris/Documents/GitHub/puredriveapp/app/src/main/res/drawable/line_6.xml" value="0.1745" />
+        <entry key="..\:/Users/Chris/Documents/GitHub/puredriveapp/app/src/main/res/layout-large/activity_main.xml" value="0.4007936507936508" />
+        <entry key="..\:/Users/Chris/Documents/GitHub/puredriveapp/app/src/main/res/layout-xlarge/welcome.xml" value="0.201953125" />
+        <entry key="..\:/Users/Chris/Documents/GitHub/puredriveapp/app/src/main/res/layout-xlarge/welcome_2.xml" value="0.201953125" />
+        <entry key="..\:/Users/Chris/Documents/GitHub/puredriveapp/app/src/main/res/layout/activity_jemma.xml" value="0.2677083333333333" />
+        <entry key="..\:/Users/Chris/Documents/GitHub/puredriveapp/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Chris/Documents/GitHub/puredriveapp/app/src/main/res/layout/activity_sign_in.xml" value="0.22" />
+        <entry key="..\:/Users/Chris/Documents/GitHub/puredriveapp/app/src/main/res/layout/activity_sign_up.xml" value="0.36302083333333335" />
+        <entry key="..\:/Users/Chris/Documents/GitHub/puredriveapp/app/src/main/res/layout/card_layout.xml" value="0.25" />
+        <entry key="..\:/Users/Chris/Documents/GitHub/puredriveapp/app/src/main/res/layout/customer_signup_1.xml" value="0.22" />
+        <entry key="..\:/Users/Chris/Documents/GitHub/puredriveapp/app/src/main/res/layout/customer_signup_2.xml" value="0.22" />
+        <entry key="..\:/Users/Chris/Documents/GitHub/puredriveapp/app/src/main/res/layout/filter_1.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/Chris/Documents/GitHub/puredriveapp/app/src/main/res/layout/fragment_history.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/Chris/Documents/GitHub/puredriveapp/app/src/main/res/layout/fragment_home.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/Chris/Documents/GitHub/puredriveapp/app/src/main/res/layout/fragment_home2.xml" value="0.26875" />
+        <entry key="..\:/Users/Chris/Documents/GitHub/puredriveapp/app/src/main/res/layout/fragment_msgs.xml" value="0.22" />
+        <entry key="..\:/Users/Chris/Documents/GitHub/puredriveapp/app/src/main/res/layout/fragment_profile.xml" value="0.22" />
+        <entry key="..\:/Users/Chris/Documents/GitHub/puredriveapp/app/src/main/res/layout/fragment_settings.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/Chris/Documents/GitHub/puredriveapp/app/src/main/res/layout/history.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/Chris/Documents/GitHub/puredriveapp/app/src/main/res/layout/home_layout.xml" value="0.1" />
+        <entry key="..\:/Users/Chris/Documents/GitHub/puredriveapp/app/src/main/res/layout/loc_filter.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/Chris/Documents/GitHub/puredriveapp/app/src/main/res/layout/login_1.xml" value="0.26927083333333335" />
+        <entry key="..\:/Users/Chris/Documents/GitHub/puredriveapp/app/src/main/res/layout/messages.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/Chris/Documents/GitHub/puredriveapp/app/src/main/res/layout/price_filter_closed.xml" value="0.22" />
+        <entry key="..\:/Users/Chris/Documents/GitHub/puredriveapp/app/src/main/res/layout/price_filter_open.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/Chris/Documents/GitHub/puredriveapp/app/src/main/res/layout/rental_login_1.xml" value="0.26927083333333335" />
+        <entry key="..\:/Users/Chris/Documents/GitHub/puredriveapp/app/src/main/res/layout/rental_login_3.xml" value="0.26927083333333335" />
+        <entry key="..\:/Users/Chris/Documents/GitHub/puredriveapp/app/src/main/res/layout/rental_signup_1.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/Chris/Documents/GitHub/puredriveapp/app/src/main/res/layout/rental_signup_2.xml" value="0.22" />
+        <entry key="..\:/Users/Chris/Documents/GitHub/puredriveapp/app/src/main/res/layout/rental_signup_3.xml" value="0.22" />
+        <entry key="..\:/Users/Chris/Documents/GitHub/puredriveapp/app/src/main/res/layout/rental_signup_4.xml" value="0.22" />
+        <entry key="..\:/Users/Chris/Documents/GitHub/puredriveapp/app/src/main/res/layout/rental_signup_5.xml" value="0.22" />
+        <entry key="..\:/Users/Chris/Documents/GitHub/puredriveapp/app/src/main/res/layout/rental_signup_6.xml" value="0.22" />
+        <entry key="..\:/Users/Chris/Documents/GitHub/puredriveapp/app/src/main/res/layout/sample_activity.xml" value="0.25" />
+        <entry key="..\:/Users/Chris/Documents/GitHub/puredriveapp/app/src/main/res/layout/staff_signup_1.xml" value="0.22" />
+        <entry key="..\:/Users/Chris/Documents/GitHub/puredriveapp/app/src/main/res/layout/staff_signup_2.xml" value="0.22" />
+        <entry key="..\:/Users/Chris/Documents/GitHub/puredriveapp/app/src/main/res/layout/staff_signup_3.xml" value="0.22" />
+        <entry key="..\:/Users/Chris/Documents/GitHub/puredriveapp/app/src/main/res/layout/staff_signup_4.xml" value="0.22" />
+        <entry key="..\:/Users/Chris/Documents/GitHub/puredriveapp/app/src/main/res/layout/staff_signup_5.xml" value="0.22" />
+        <entry key="..\:/Users/Chris/Documents/GitHub/puredriveapp/app/src/main/res/layout/user_profile.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/Chris/Documents/GitHub/puredriveapp/app/src/main/res/layout/welcome.xml" value="0.26927083333333335" />
+        <entry key="..\:/Users/Chris/Documents/GitHub/puredriveapp/app/src/main/res/layout/welcome_2.xml" value="0.25555555555555554" />
+        <entry key="..\:/Users/Chris/Documents/GitHub/puredriveapp/app/src/main/res/menu/bot_menu.xml" value="0.26875" />
+        <entry key="..\:/puredriveapp/app/src/main/res/drawable-nodpi/color_shape.xml" value="0.316" />
+        <entry key="..\:/puredriveapp/app/src/main/res/drawable-v24/_bg__messages___conversations_list___light___iphone_shape.xml" value="0.316" />
+        <entry key="..\:/puredriveapp/app/src/main/res/drawable-v24/avatar_mask_ek1_shape.xml" value="0.316" />
+        <entry key="..\:/puredriveapp/app/src/main/res/drawable-v24/background_shape.xml" value="0.316" />
+        <entry key="..\:/puredriveapp/app/src/main/res/drawable-v24/border_shape.xml" value="0.188" />
+        <entry key="..\:/puredriveapp/app/src/main/res/drawable-v24/rectangle_3.xml" value="0.1935" />
+        <entry key="..\:/puredriveapp/app/src/main/res/drawable/rectfortopnav.xml" value="0.1935" />
+        <entry key="..\:/puredriveapp/app/src/main/res/layout-large/activity_main.xml" value="0.17994791666666668" />
+        <entry key="..\:/puredriveapp/app/src/main/res/layout-normal/activity_main.xml" value="0.35989583333333336" />
+        <entry key="..\:/puredriveapp/app/src/main/res/layout-small/activity_main.xml" value="0.3030701754385965" />
+        <entry key="..\:/puredriveapp/app/src/main/res/layout-xlarge/activity_main.xml" value="0.17994791666666668" />
+        <entry key="..\:/puredriveapp/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/puredriveapp/app/src/main/res/layout/card_layout.xml" value="0.3030701754385965" />
+        <entry key="..\:/puredriveapp/app/src/main/res/layout/fragment_blank.xml" value="0.3351449275362319" />
+        <entry key="..\:/puredriveapp/app/src/main/res/layout/fragment_history.xml" value="0.33" />
+        <entry key="..\:/puredriveapp/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/puredriveapp/app/src/main/res/layout/fragment_msgs.xml" value="0.18" />
+        <entry key="..\:/puredriveapp/app/src/main/res/layout/fragment_profile.xml" value="0.3351449275362319" />
+        <entry key="..\:/puredriveapp/app/src/main/res/layout/fragment_settings.xml" value="0.3351449275362319" />
+        <entry key="..\:/puredriveapp/app/src/main/res/menu/bot_menu.xml" value="0.371875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

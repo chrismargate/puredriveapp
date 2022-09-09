@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.puredriveapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Puredriveapp"
+        tools:targetApi="31">
+        <activity
+            android:name=".SampleActivity"
+            android:label="SampleActivity"/>
+        <!--
+        <activity
+            android:name=".MainActivity"
+            android:label="MainActivity"/>
+        -->
+
+        <activity
+            android:name=".MainActivity"
+            android:label="MainActivity"/>
+
+        <activity
+            android:name=".SignInActivity"
+            android:label="SignInActivity"/>
+
+        <activity
+            android:name=".CustomerSignUp1Activity"
+            android:label="CustomerSignUp1Activity"/>
+
+        <activity
+            android:name=".CustomerSignUp2Activity"
+            android:label="CustomerSignUp2Activity"/>
+
+        <activity
+            android:name=".ChooseUserActivity"
+            android:label="ChooseUserActivity"/>
+
+        <activity
+            android:name=".RentalSignUp1Activity"
+            android:label="RentalSignUp1Activity"/>
+
+        <activity
+            android:name=".RentalSignUp2Activity"
+            android:label="RentalSignUp2Activity"/>
+
+        <activity
+            android:name=".RentalSignUp3Activity"
+            android:label="RentalSignUp3Activity"/>
+
+        <activity
+            android:name=".RentalSignUp4Activity"
+            android:label="RentalSignUp4Activity"/>
+
+        <activity
+            android:name=".RentalSignUp5Activity"
+            android:label="RentalSignUp5Activity"/>
+
+        <activity
+            android:name=".RentalSignUp6Activity"
+            android:label="RentalSignUp6Activity"/>
+
+        <activity
+            android:name=".GetStartedActivity"
+            android:label="GetStartedActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
