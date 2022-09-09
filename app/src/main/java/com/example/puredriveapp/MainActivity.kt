@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         val bottomNavigationView = findViewById<BottomNavigationView>(R.id.bottomNavigationView)
         val navController = findNavController(R.id.fragment)
         bottomNavigationView.setupWithNavController(navController)
-        println("hello chris goodevening")
+
         /*
         var layoutManager = LinearLayoutManager(this)
 

@@ -153,23 +153,9 @@
         android:layout_height="45dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="44dp"
-        android:layout_marginTop="552dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="548dp"
         android:background="@drawable/btnclear"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/you_already"
-        android:layout_width="288dp"
-        android:layout_height="29dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="52dp"
-        android:layout_marginTop="688dp"
-        android:fontFamily="@font/jost"
-        android:gravity="center|center_vertical"
-        android:text="Already have an account? Sign in"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -179,9 +165,23 @@
         android:layout_height="45dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="44dp"
-        android:layout_marginTop="620dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="616dp"
         android:background="@drawable/btnnext"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/you_already"
+        android:layout_width="288dp"
+        android:layout_height="29dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="684dp"
+        android:fontFamily="@font/jost"
+        android:gravity="center|center_vertical"
+        android:text="Already have an account? Sign in"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
