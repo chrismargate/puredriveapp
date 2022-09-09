@@ -9,8 +9,12 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.gson.GsonBuilder
 import kotlinx.android.synthetic.main.activity_sign_in.*
+import kotlinx.coroutines.delay
 import okhttp3.*
 import okio.IOException
+import java.util.*
+import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -41,7 +45,6 @@ class HomeFragment : Fragment() {
             param1 = it.getString(ARG_PARAM1)
             param2 = it.getString(ARG_PARAM2)
         }
-        fetchVehicleHome()
     }
 
     override fun onCreateView(
@@ -86,14 +89,17 @@ class HomeFragment : Fragment() {
 
                     val gson = GsonBuilder().create()
 
-                    val vehicle = gson.fromJson(body, Vehicle::class.java)
+                    val vehicles: List<Vehicle> = gson.fromJson(body, Array<Vehicle>::class.java).toList()
+                    vehicleArrayList = vehicles as ArrayList<Vehicle>
 
-                    println(vehicle.toString())
+                    
+
                 }catch (e: Exception){
                     e.printStackTrace()
                 }
 
             }
+
             override fun onFailure(call: Call, e: IOException) {
                 println("Failed to execute request")
             }
@@ -103,13 +109,26 @@ class HomeFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        initializeData()
+        //initializeData()
+        fetchVehicleHome()
+
         val layoutManager = LinearLayoutManager(context)
         recyclerView = view.findViewById(R.id.rvVehicles)
         recyclerView.layoutManager = layoutManager
         recyclerView.setHasFixedSize(true)
         adapter = VehicleRecyclerAdapter(vehicleArrayList)
         recyclerView.adapter = adapter
+
+        /*
+        val layoutManager = LinearLayoutManager(context)
+        recyclerView = view.findViewById(R.id.rvVehicles)
+        recyclerView.layoutManager = layoutManager
+        recyclerView.setHasFixedSize(true)
+        adapter = VehicleRecyclerAdapter(vehicleArrayList)
+        recyclerView.adapter = adapter
+
+         */
+
     }
 
     private fun initializeData() {

@@ -85,12 +85,12 @@
             android:label="SignInActivity"/>
 
         <activity
-            android:name=".MainActivity"
-            android:label="MainActivity"/>
+            android:name=".GetStartedActivity"
+            android:label="GetStartedActivity"/>
 
         <activity
-            android:name=".GetStartedActivity"
-            android:label="GetStartedActivity"
+            android:name=".MainActivity"
+            android:label="MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
