@@ -61,8 +61,24 @@
             android:label="RentalSignUp6Activity"/>
 
         <activity
-            android:name=".GetStartedActivity"
-            android:label="GetStartedActivity"/>
+            android:name=".StaffSignUp1Activity"
+            android:label="StaffSignUp1Activity"/>
+
+        <activity
+            android:name=".StaffSignUp2Activity"
+            android:label="StaffSignUp2Activity"/>
+
+        <activity
+            android:name=".StaffSignUp3Activity"
+            android:label="StaffSignUp3Activity"/>
+
+        <activity
+            android:name=".StaffSignUp4Activity"
+            android:label="StaffSignUp4Activity"/>
+
+        <activity
+            android:name=".StaffSignUp5Activity"
+            android:label="StaffSignUp5Activity"/>
 
         <activity
             android:name=".SignInActivity"
@@ -70,7 +86,11 @@
 
         <activity
             android:name=".MainActivity"
-            android:label="MainActivity"
+            android:label="MainActivity"/>
+
+        <activity
+            android:name=".GetStartedActivity"
+            android:label="GetStartedActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
