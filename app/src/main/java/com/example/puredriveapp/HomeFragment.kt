@@ -92,7 +92,7 @@ class HomeFragment : Fragment() {
                     val vehicles: List<Vehicle> = gson.fromJson(body, Array<Vehicle>::class.java).toList()
                     vehicleArrayList = vehicles as ArrayList<Vehicle>
 
-                    
+
 
                 }catch (e: Exception){
                     e.printStackTrace()
