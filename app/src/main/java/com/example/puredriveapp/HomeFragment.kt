@@ -15,6 +15,8 @@ import okio.IOException
 import java.util.*
 import androidx.appcompat.app.AppCompatActivity
 import android.content.Intent
+import kotlinx.android.synthetic.main.fragment_home2.*
+import kotlinx.android.synthetic.main.home_layout.*
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -38,6 +40,7 @@ class HomeFragment : Fragment() {
     lateinit var names: Array<String>
     lateinit var price: Array<String>
     lateinit var location: Array<String>
+    lateinit var thumbnail: Array<Int>
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -45,6 +48,13 @@ class HomeFragment : Fragment() {
             param1 = it.getString(ARG_PARAM1)
             param2 = it.getString(ARG_PARAM2)
         }
+        /*
+        btnVehicleRent.setOnClickListener{
+            val intent = Intent(this@HomeFragment.requireContext(), SupraDescActivity::class.java)
+            startActivity(intent)
+        }
+
+         */
     }
 
     override fun onCreateView(
@@ -52,7 +62,7 @@ class HomeFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_home, container, false)
+        return inflater.inflate(R.layout.fragment_home2, container, false)
     }
 
     companion object {
@@ -74,7 +84,7 @@ class HomeFragment : Fragment() {
                 }
             }
     }
-
+/*
     private fun fetchVehicleHome(){
         val url = "https://my-python-test-api.herokuapp.com/api/vehicle"
         val request = Request.Builder().url(url).build()
@@ -92,8 +102,6 @@ class HomeFragment : Fragment() {
                     val vehicles: List<Vehicle> = gson.fromJson(body, Array<Vehicle>::class.java).toList()
                     vehicleArrayList = vehicles as ArrayList<Vehicle>
 
-
-
                 }catch (e: Exception){
                     e.printStackTrace()
                 }
@@ -107,17 +115,31 @@ class HomeFragment : Fragment() {
 
     }
 
+ */
+
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        //initializeData()
-        fetchVehicleHome()
+        rentbtn2.setOnClickListener {
+            val intent = Intent(this@HomeFragment.requireContext(), SupraDescActivity::class.java)
+            startActivity(intent)
+        }
 
+        textView3.setOnClickListener{
+            val intent = Intent(this@HomeFragment.requireContext(), SupraDescActivity::class.java)
+            startActivity(intent)
+        }
+        //initializeData()
+        //fetchVehicleHome()
+        /*
+        initializeData()
         val layoutManager = LinearLayoutManager(context)
         recyclerView = view.findViewById(R.id.rvVehicles)
         recyclerView.layoutManager = layoutManager
         recyclerView.setHasFixedSize(true)
         adapter = VehicleRecyclerAdapter(vehicleArrayList)
         recyclerView.adapter = adapter
+
+         */
 
         /*
         val layoutManager = LinearLayoutManager(context)
@@ -133,33 +155,33 @@ class HomeFragment : Fragment() {
 
     private fun initializeData() {
         vehicleArrayList = arrayListOf<Vehicle>()
-        /*
+
         names = arrayOf(
             "Toyota Supra",
             "Toyota Fortuner",
             "Lamborghini Aventador"
         )
 
-         */
-
-        names = arrayOf(
-            "Honda Civic",
-            "Ferrari Italia",
-            "Mini Cooper"
-        )
         price = arrayOf(
-            "3499",
-            "2000",
-            "6999"
+            "PHP 3499",
+            "PHP 2000",
+            "PHP 6999"
         )
+
         location = arrayOf(
             "Pasig, NCR",
             "Makati, NCR",
             "Mandaluyong, NCR"
         )
 
+        thumbnail = arrayOf(
+            R.drawable.supra2,
+            R.drawable.fortuner,
+            R.drawable.lambo
+        )
+
         for(i in names.indices){
-            val vehicles = Vehicle(names[i],price[i],location[i])
+            val vehicles = Vehicle(names[i],price[i],location[i],thumbnail[i])
             vehicleArrayList.add(vehicles)
         }
     }

@@ -81,7 +81,7 @@
             android:label="StaffSignUp5Activity"/>
 
         <activity
-            android:name=".payment_cash"
+            android:name=".PaymentCashActivity"
             android:label="payment_cash"/>
 
         <activity
@@ -93,7 +93,7 @@
             android:label="payment_paymaya"/>
 
         <activity
-            android:name=".payment_1"
+            android:name=".PaymentActivity"
             android:label="payment_1"/>
 
         <activity
@@ -118,16 +118,12 @@
             android:label="supra_desc_2"/>
 
         <activity
-            android:name=".supra_desc3"
-            android:label="supra_desc3"/>
-
-        <activity
             android:name=".view_doc"
             android:label="view_doc"/>
 
         <activity
-            android:name=".upload_files"
-            android:label="upload_files"/>
+            android:name=".UploadFilesActivity"
+            android:label="UploadFilesActivity"/>
 
 
         <activity
@@ -135,12 +131,16 @@
             android:label="SignInActivity"/>
 
         <activity
-            android:name=".GetStartedActivity"
-            android:label="GetStartedActivity"/>
+            android:name=".MainActivity"
+            android:label="MainActivity"/>
 
         <activity
-            android:name=".MainActivity"
-            android:label="MainActivity"
+            android:name=".SupraDescActivity"
+            android:label="SupraDescActivity"/>
+
+        <activity
+            android:name=".GetStartedActivity"
+            android:label="GetStartedActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

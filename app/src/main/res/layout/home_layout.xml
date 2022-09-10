@@ -24,18 +24,24 @@
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/rectangle_3" />
 
+        <!--android:layout_width="273dp"-->
+
         <ImageView
             android:id="@+id/ivVehicleThumbnail"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="24dp"
-            android:layout_marginTop="32dp"
+            android:layout_width="315dp"
+            android:layout_height="165dp"
+            android:layout_marginStart="64dp"
+            android:layout_marginTop="36dp"
+            android:maxWidth="315dp"
+            android:maxHeight="165dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/ivVehicleBackground"
             app:layout_constraintTop_toTopOf="@+id/ivVehicleBackground"
-            />
+            app:layout_constraintVertical_bias="0.059" />
 
-        <!--android:layout_width="273dp"-->
-    <TextView
+        <TextView
         android:id="@+id/tvVehicleName"
         android:layout_width="wrap_content"
         android:layout_height="45dp"

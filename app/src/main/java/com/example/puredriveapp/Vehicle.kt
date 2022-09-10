@@ -1,5 +1,15 @@
 package com.example.puredriveapp
 
+import android.media.Image
+
+data class Vehicle(
+    var Name: String,
+    var Price: String,
+    var Location: String,
+    var Thumbnail: Int
+)
+
+/*
 data class Vehicle(
     var Availability: String? = null,
     var AvailabilityStartDate: String? = null,
@@ -20,3 +30,4 @@ data class Vehicle(
     var VehicleDataID: Int? = null,
     var VehicleID: Int? = null
 )
+ */
