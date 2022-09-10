@@ -4,21 +4,21 @@ import android.content.Intent
 import android.os.Bundle
 import android.os.PersistableBundle
 import androidx.appcompat.app.AppCompatActivity
+import androidx.fragment.app.Fragment
+import com.example.puredriveapp.fragments.ChooseUserFragment
+import com.example.puredriveapp.fragments.GetStartedFragment
 import kotlinx.android.synthetic.main.welcome.*
 
-class GetStartedActivity : AppCompatActivity() {
+class GetStartedActivity : AppCompatActivity(), GetStartedCommunicator {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.welcome)
+        setContentView(R.layout.activity_getstarted)
 
-        ibtnGetStarted.setOnClickListener{
-            loadNextActivity()
-        }
+        supportFragmentManager.beginTransaction().replace(R.id.frameGetStarted, GetStartedFragment()).commit()
     }
 
-    private fun loadNextActivity(){
-        val intent = Intent(this,ChooseUserActivity::class.java)
-        startActivity(intent)
+    override fun loadNextFragment(nextResource: Int, nextFragment: Fragment){
+        supportFragmentManager.beginTransaction().replace(nextResource, nextFragment).commit()
     }
 }
