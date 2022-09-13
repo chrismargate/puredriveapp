@@ -1,4 +1,5 @@
 package com.example.puredriveapp
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.payment_1.*
@@ -10,7 +11,7 @@ class PaymentCashActivity : AppCompatActivity () {
         setContentView(R.layout.payment_cash)
 
         cash_book_now.setOnClickListener{
-
+            startActivity(Intent(this, BookingConfirmedActivity::class.java))
         }
 
     }
