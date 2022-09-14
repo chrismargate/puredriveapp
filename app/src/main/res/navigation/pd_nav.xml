@@ -10,6 +10,7 @@
         android:name="com.example.puredriveapp.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home2" />
+
     <fragment
         android:id="@+id/pd_messages"
         android:name="com.example.puredriveapp.MsgsFragment"
@@ -21,11 +22,13 @@
         android:name="com.example.puredriveapp.HistoryFragment"
         android:label="fragment_history"
         tools:layout="@layout/fragment_history" />
+
     <fragment
         android:id="@+id/pd_profile"
         android:name="com.example.puredriveapp.ProfileFragment"
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile" />
+
     <fragment
         android:id="@+id/pd_settings"
         android:name="com.example.puredriveapp.SettingsFragment"

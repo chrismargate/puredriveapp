@@ -4,13 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".fragments.RentalSignUp3Fragment">
+    tools:context=".fragments.RentalSignUp6Fragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
 
     <ImageButton
         android:id="@+id/back_button"
@@ -45,14 +40,14 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="112dp"
         android:fontFamily="@font/jost"
-        android:text="Rental Name"
+        android:text="State"
         android:textColor="#000000"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/rentalname"
+        android:id="@+id/emailad"
         style="@style/Widget.AppCompat.AutoCompleteTextView"
         android:layout_width="316dp"
         android:layout_height="38dp"
@@ -65,7 +60,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <EditText
-        android:id="@+id/busphoneno"
+        android:id="@+id/phoneno"
         style="@style/Widget.AppCompat.AutoCompleteTextView"
         android:layout_width="316dp"
         android:layout_height="38dp"
@@ -84,14 +79,14 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="212dp"
         android:fontFamily="@font/jost"
-        android:text="Business Phone Number"
+        android:text="City"
         android:textColor="#000000"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/busemailadd"
+        android:id="@+id/username"
         style="@style/Widget.AppCompat.AutoCompleteTextView"
         android:layout_width="316dp"
         android:layout_height="38dp"
@@ -110,7 +105,33 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="312dp"
         android:fontFamily="@font/jost"
-        android:text="Business Email Address"
+        android:text="Country"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/passw"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="316dp"
+        android:layout_height="38dp"
+        android:background="#00FFFFFF"
+        android:ems="10"
+        android:foreground="@drawable/texteditshape"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="412dp"
+        android:fontFamily="@font/jost"
+        android:text="Zip Code"
         android:textColor="#000000"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -133,8 +154,8 @@
         android:layout_height="45dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="44dp"
-        android:layout_marginTop="568dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="564dp"
         android:background="@drawable/btnclear"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -145,8 +166,8 @@
         android:layout_height="29dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="52dp"
-        android:layout_marginTop="692dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="688dp"
         android:fontFamily="@font/jost"
         android:gravity="center|center_vertical"
         android:text="Already have an account? Sign in"
@@ -159,11 +180,10 @@
         android:layout_height="45dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="44dp"
-        android:layout_marginTop="636dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="632dp"
         android:background="@drawable/btnnext"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.appcompat.widget.AppCompatImageButton xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".fragments.RentalSignUp3Fragment">
-
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+    tools:context=".fragments.StaffSignUp1Fragment">
 
     <ImageButton
         android:id="@+id/back_button"
@@ -45,14 +39,14 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="112dp"
         android:fontFamily="@font/jost"
-        android:text="Rental Name"
+        android:text="First Name"
         android:textColor="#000000"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/rentalname"
+        android:id="@+id/staff_firstName"
         style="@style/Widget.AppCompat.AutoCompleteTextView"
         android:layout_width="316dp"
         android:layout_height="38dp"
@@ -65,7 +59,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <EditText
-        android:id="@+id/busphoneno"
+        android:id="@+id/staff_lastName"
         style="@style/Widget.AppCompat.AutoCompleteTextView"
         android:layout_width="316dp"
         android:layout_height="38dp"
@@ -84,14 +78,14 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="212dp"
         android:fontFamily="@font/jost"
-        android:text="Business Phone Number"
+        android:text="Last Name"
         android:textColor="#000000"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/busemailadd"
+        android:id="@+id/staff_dateBirth"
         style="@style/Widget.AppCompat.AutoCompleteTextView"
         android:layout_width="316dp"
         android:layout_height="38dp"
@@ -110,7 +104,33 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="312dp"
         android:fontFamily="@font/jost"
-        android:text="Business Email Address"
+        android:text="Date of Birth"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/staff_gender"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="316dp"
+        android:layout_height="38dp"
+        android:background="#00FFFFFF"
+        android:ems="10"
+        android:foreground="@drawable/texteditshape"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="412dp"
+        android:fontFamily="@font/jost"
+        android:text="Gender"
         android:textColor="#000000"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -133,23 +153,9 @@
         android:layout_height="45dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="44dp"
-        android:layout_marginTop="568dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="548dp"
         android:background="@drawable/btnclear"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/you_already"
-        android:layout_width="288dp"
-        android:layout_height="29dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="52dp"
-        android:layout_marginTop="692dp"
-        android:fontFamily="@font/jost"
-        android:gravity="center|center_vertical"
-        android:text="Already have an account? Sign in"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -159,11 +165,26 @@
         android:layout_height="45dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="44dp"
-        android:layout_marginTop="636dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="616dp"
         android:background="@drawable/btnnext"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/you_already"
+        android:layout_width="288dp"
+        android:layout_height="29dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="684dp"
+        android:fontFamily="@font/jost"
+        android:gravity="center|center_vertical"
+        android:text="Already have an account? Sign in"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.appcompat.widget.AppCompatImageButton>
