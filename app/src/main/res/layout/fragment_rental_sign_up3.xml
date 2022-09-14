@@ -6,14 +6,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".fragments.RentalSignUp3Fragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
-
     <ImageButton
-        android:id="@+id/back_button"
+        android:id="@+id/ibtnBack"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
@@ -30,12 +24,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="23dp"
-        android:layout_marginTop="45dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="44dp"
         android:fontFamily="@font/jost"
         android:text="Create an account to continue"
         android:textColor="#000000"
-        android:textSize="15sp"
-        app:layout_constraintStart_toEndOf="@+id/back_button"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ibtnBack"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -128,7 +124,7 @@
         app:srcCompat="@drawable/line_6" />
 
     <ImageButton
-        android:id="@+id/frame_5"
+        android:id="@+id/ibtnClear"
         android:layout_width="307dp"
         android:layout_height="45dp"
         android:layout_alignParentLeft="true"
@@ -140,7 +136,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/you_already"
+        android:id="@+id/tvSignIn"
         android:layout_width="288dp"
         android:layout_height="29dp"
         android:layout_alignParentLeft="true"
