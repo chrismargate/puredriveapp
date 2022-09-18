@@ -108,10 +108,6 @@ class SignInActivity : AppCompatActivity() {
         if (userType == "Staff"){
 
         }
-
-        if (userType == "Rental"){
-            startActivity(Intent(this,RentalSignUp1Activity::class.java))
-        }
     }
 
     data class User(

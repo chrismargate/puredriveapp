@@ -37,50 +37,6 @@
             android:label="ChooseUserActivity"/>
 
         <activity
-            android:name=".RentalSignUp1Activity"
-            android:label="RentalSignUp1Activity"/>
-
-        <activity
-            android:name=".RentalSignUp2Activity"
-            android:label="RentalSignUp2Activity"/>
-
-        <activity
-            android:name=".RentalSignUp3Activity"
-            android:label="RentalSignUp3Activity"/>
-
-        <activity
-            android:name=".RentalSignUp4Activity"
-            android:label="RentalSignUp4Activity"/>
-
-        <activity
-            android:name=".RentalSignUp5Activity"
-            android:label="RentalSignUp5Activity"/>
-
-        <activity
-            android:name=".RentalSignUp6Activity"
-            android:label="RentalSignUp6Activity"/>
-
-        <activity
-            android:name=".StaffSignUp1Activity"
-            android:label="StaffSignUp1Activity"/>
-
-        <activity
-            android:name=".StaffSignUp2Activity"
-            android:label="StaffSignUp2Activity"/>
-
-        <activity
-            android:name=".StaffSignUp3Activity"
-            android:label="StaffSignUp3Activity"/>
-
-        <activity
-            android:name=".StaffSignUp4Activity"
-            android:label="StaffSignUp4Activity"/>
-
-        <activity
-            android:name=".StaffSignUp5Activity"
-            android:label="StaffSignUp5Activity"/>
-
-        <activity
             android:name=".PaymentCashActivity"
             android:label="payment_cash"/>
 
@@ -101,17 +57,12 @@
             android:label="booking_availability"/>
 
         <activity
-            android:name=".blank_desc"
-            android:label="blank_desc"/>
-
-        <activity
             android:name=".vpi_desc"
             android:label="vpi_desc"/>
 
         <activity
             android:name=".supra_desc"
             android:label="supra_desc"/>
-
 
         <activity
             android:name=".supra_desc_2"
@@ -124,7 +75,6 @@
         <activity
             android:name=".UploadFilesActivity"
             android:label="UploadFilesActivity"/>
-
 
         <activity
             android:name=".SignInActivity"
@@ -144,7 +94,6 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
