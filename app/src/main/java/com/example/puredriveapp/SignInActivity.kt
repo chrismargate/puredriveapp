@@ -23,17 +23,19 @@ class SignInActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sign_in)
         progressBar = findViewById<ProgressBar>(R.id.progressBar) as ProgressBar
-
+        tvLoginTitle.text = intent.getStringExtra("User Type")
         btnSignIn.setOnClickListener{
             tvLoginTitle.text = "Logging in.."
             progressBar!!.setProgress(count)
             progressBar!!.visibility = View.VISIBLE
             fetchLogin()
         }
-
+        /*
         tvSignUp.setOnClickListener{
             loadSignUpActivity()
         }
+
+         */
     }
 
     private fun fetchLogin() {
@@ -96,7 +98,7 @@ class SignInActivity : AppCompatActivity() {
         val intent = Intent(this,MainActivity::class.java)
         startActivity(intent)
     }
-
+/*
     private fun loadSignUpActivity(){
 
         userType = intent.getStringExtra("User type").toString()
@@ -109,6 +111,8 @@ class SignInActivity : AppCompatActivity() {
 
         }
     }
+
+ */
 
     data class User(
         var UserID: Int = 0,

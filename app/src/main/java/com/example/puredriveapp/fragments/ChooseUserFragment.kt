@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.example.puredriveapp.GetStartedCommunicator
 import com.example.puredriveapp.R
 import kotlinx.android.synthetic.main.fragment_choose_user.view.*
 
@@ -23,6 +24,8 @@ class ChooseUserFragment : Fragment() {
     private var param1: String? = null
     private var param2: String? = null
 
+    private lateinit var communicator: GetStartedCommunicator
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         arguments?.let {
@@ -37,10 +40,10 @@ class ChooseUserFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         val view =  inflater.inflate(R.layout.fragment_choose_user, container, false)
-
+        communicator = activity as GetStartedCommunicator
 
         view.ibtnCustomer.setOnClickListener {
-
+            communicator.getData("Customer")
         }
 
         view.ibtnStaff.setOnClickListener {
