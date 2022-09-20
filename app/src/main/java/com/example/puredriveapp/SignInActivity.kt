@@ -30,12 +30,27 @@ class SignInActivity : AppCompatActivity() {
             progressBar!!.visibility = View.VISIBLE
             fetchLogin()
         }
-        /*
-        tvSignUp.setOnClickListener{
-            loadSignUpActivity()
-        }
 
-         */
+        tvSignUp.setOnClickListener{
+            //loadSignUpActivity()
+
+            val userType = intent.getStringExtra("User Type")
+
+            when (userType){
+                "Customer" -> {
+                    startActivity(Intent(this,CustomerSignUpActivity::class.java))
+                }
+
+                "Staff" -> {
+                    //tvLoginTitle.text = "I clicked this"
+                    startActivity(Intent(this,StaffSignUpActivity::class.java))
+                }
+
+                "Rental" -> {
+                    startActivity(Intent(this,RentalSignUpActivity::class.java))
+                }
+            }
+        }
     }
 
     private fun fetchLogin() {

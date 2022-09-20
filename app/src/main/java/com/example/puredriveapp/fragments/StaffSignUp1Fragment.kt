@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.puredriveapp.R
+import kotlinx.android.synthetic.main.fragment_staff_sign_up1.view.*
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -35,7 +36,13 @@ class StaffSignUp1Fragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_staff_sign_up1, container, false)
+        val view =  inflater.inflate(R.layout.fragment_staff_sign_up1, container, false)
+
+        view.ibtnNext.setOnClickListener{
+
+        }
+
+        return view
     }
 
     companion object {

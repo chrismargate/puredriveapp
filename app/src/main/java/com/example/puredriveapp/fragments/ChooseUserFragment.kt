@@ -47,11 +47,11 @@ class ChooseUserFragment : Fragment() {
         }
 
         view.ibtnStaff.setOnClickListener {
-
+            communicator.getData("Staff")
         }
 
         view.ibtnRental.setOnClickListener {
-
+            communicator.getData("Rental")
         }
 
         return view

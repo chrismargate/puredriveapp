@@ -89,6 +89,18 @@
             android:label="SupraDescActivity"/>
 
         <activity
+            android:name=".CustomerSignUpActivity"
+            android:label="CustomerSignUpActivity"/>
+
+        <activity
+            android:name=".StaffSignUpActivity"
+            android:label="StaffSignUpActivity"/>
+
+        <activity
+            android:name=".RentalSignUpActivity"
+            android:label="RentalSignUpActivity"/>
+
+        <activity
             android:name=".GetStartedActivity"
             android:label="GetStartedActivity"
             android:exported="true">
