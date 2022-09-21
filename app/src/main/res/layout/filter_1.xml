@@ -6,28 +6,15 @@
     android:layout_height="match_parent">
 
     <ImageButton
-        android:id="@+id/booking_avail"
-        android:layout_width="304dp"
+        android:id="@+id/location_filter"
+        android:layout_width="314dp"
         android:layout_height="54dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="496dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="112dp"
         android:background="#00000000"
-        android:src="@drawable/booking_availability_filter"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageButton
-        android:id="@+id/rating_filter"
-        android:layout_width="318dp"
-        android:layout_height="54dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="424dp"
-        android:background="#00000000"
-        android:src="@drawable/rating_filter"
+        android:src="@drawable/location_filter"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -38,22 +25,34 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="48dp"
-        android:layout_marginTop="568dp"
+        android:layout_marginTop="544dp"
         android:background="#00000000"
         android:src="@drawable/rental_business_filter"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/mileage_limit2"
-        android:layout_width="304dp"
+        android:id="@+id/rating_filter"
+        android:layout_width="318dp"
         android:layout_height="54dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="640dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="400dp"
         android:background="#00000000"
-        android:src="@drawable/mileage_limit_filter"
+        android:src="@drawable/rating_filter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/close_1"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="320dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/close"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -64,7 +63,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="44dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="24dp"
         android:background="#00000000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -72,14 +71,15 @@
         tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageButton
-        android:id="@+id/close_1"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
+        android:id="@+id/booking_avail"
+        android:layout_width="304dp"
+        android:layout_height="54dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="320dp"
-        android:layout_marginTop="64dp"
-        android:background="@drawable/close"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="472dp"
+        android:background="#00000000"
+        android:src="@drawable/booking_availability_filter"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -90,47 +90,21 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="52dp"
-        android:layout_marginTop="120dp"
+        android:layout_marginTop="96dp"
         android:background="@drawable/line_1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/location_filter"
-        android:layout_width="314dp"
+        android:id="@+id/mileage_limit2"
+        android:layout_width="304dp"
         android:layout_height="54dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="136dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="616dp"
         android:background="#00000000"
-        android:src="@drawable/location_filter"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageButton
-        android:id="@+id/brand_filter"
-        android:layout_width="321dp"
-        android:layout_height="54dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="280dp"
-        android:background="#00000000"
-        android:src="@drawable/brand_filter"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageButton
-        android:id="@+id/price_filter"
-        android:layout_width="325dp"
-        android:layout_height="54dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="208dp"
-        android:background="#00000000"
-        android:src="@drawable/price_filter"
+        android:src="@drawable/mileage_limit_filter"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -141,9 +115,35 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="36dp"
-        android:layout_marginTop="352dp"
+        android:layout_marginTop="328dp"
         android:background="#00000000"
         android:src="@drawable/model_filter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/price_filter"
+        android:layout_width="325dp"
+        android:layout_height="54dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="184dp"
+        android:background="#00000000"
+        android:src="@drawable/price_filter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/brand_filter"
+        android:layout_width="321dp"
+        android:layout_height="54dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="256dp"
+        android:background="#00000000"
+        android:src="@drawable/brand_filter"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -153,8 +153,8 @@
         android:layout_height="94dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="724dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="684dp"
         android:background="#00000000"
         android:src="@drawable/clear_all_filters_button"
         app:layout_constraintStart_toStartOf="parent"
@@ -166,8 +166,8 @@
         android:layout_height="94dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="780dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="740dp"
         android:background="#00000000"
         android:src="@drawable/filter_button"
         app:layout_constraintStart_toStartOf="parent"

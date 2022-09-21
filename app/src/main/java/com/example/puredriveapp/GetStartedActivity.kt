@@ -21,4 +21,10 @@ class GetStartedActivity : AppCompatActivity(), GetStartedCommunicator {
     override fun loadNextFragment(nextResource: Int, nextFragment: Fragment){
         supportFragmentManager.beginTransaction().replace(nextResource, nextFragment).commit()
     }
+
+    override fun getData(userType: String) {
+        val intent = Intent(this,SignInActivity::class.java)
+        intent.putExtra("User Type",userType)
+        startActivity(intent)
+    }
 }

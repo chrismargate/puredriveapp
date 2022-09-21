@@ -46,28 +46,44 @@
         <entry key="..\:/Users/Chris/Documents/GitHub/puredriveapp/app/src/main/res/layout/welcome.xml" value="0.26927083333333335" />
         <entry key="..\:/Users/Chris/Documents/GitHub/puredriveapp/app/src/main/res/layout/welcome_2.xml" value="0.25555555555555554" />
         <entry key="..\:/Users/Chris/Documents/GitHub/puredriveapp/app/src/main/res/menu/bot_menu.xml" value="0.26875" />
+        <entry key="..\:/Users/Chris/Documents/puredriveapp/app/src/main/res/layout/activity_customer_signup.xml" value="0.16495901639344263" />
         <entry key="..\:/Users/Chris/Documents/puredriveapp/app/src/main/res/layout/activity_getstarted.xml" value="0.2682291666666667" />
         <entry key="..\:/Users/Chris/Documents/puredriveapp/app/src/main/res/layout/activity_main.xml" value="0.1897644927536232" />
+        <entry key="..\:/Users/Chris/Documents/puredriveapp/app/src/main/res/layout/activity_rental_signup.xml" value="0.20078125" />
         <entry key="..\:/Users/Chris/Documents/puredriveapp/app/src/main/res/layout/activity_sign_in.xml" value="0.1897644927536232" />
-        <entry key="..\:/Users/Chris/Documents/puredriveapp/app/src/main/res/layout/booking_availability.xml" value="0.13095238095238096" />
+        <entry key="..\:/Users/Chris/Documents/puredriveapp/app/src/main/res/layout/activity_sign_up.xml" value="0.26875" />
+        <entry key="..\:/Users/Chris/Documents/puredriveapp/app/src/main/res/layout/activity_staff_signup.xml" value="0.2677083333333333" />
+        <entry key="..\:/Users/Chris/Documents/puredriveapp/app/src/main/res/layout/booking_availability.xml" value="0.33" />
         <entry key="..\:/Users/Chris/Documents/puredriveapp/app/src/main/res/layout/card_layout.xml" value="0.1897644927536232" />
         <entry key="..\:/Users/Chris/Documents/puredriveapp/app/src/main/res/layout/customer_signup_1.xml" value="0.26927083333333335" />
+        <entry key="..\:/Users/Chris/Documents/puredriveapp/app/src/main/res/layout/filter_1.xml" value="0.2" />
         <entry key="..\:/Users/Chris/Documents/puredriveapp/app/src/main/res/layout/fragment_choose_user.xml" value="0.1" />
         <entry key="..\:/Users/Chris/Documents/puredriveapp/app/src/main/res/layout/fragment_get_started.xml" value="0.26927083333333335" />
         <entry key="..\:/Users/Chris/Documents/puredriveapp/app/src/main/res/layout/fragment_home.xml" value="0.5" />
         <entry key="..\:/Users/Chris/Documents/puredriveapp/app/src/main/res/layout/fragment_home2.xml" value="0.1897644927536232" />
         <entry key="..\:/Users/Chris/Documents/puredriveapp/app/src/main/res/layout/fragment_msgs.xml" value="0.1897644927536232" />
-        <entry key="..\:/Users/Chris/Documents/puredriveapp/app/src/main/res/layout/fragment_rental_sign_up1.xml" value="0.1" />
+        <entry key="..\:/Users/Chris/Documents/puredriveapp/app/src/main/res/layout/fragment_rental_sign_up1.xml" value="0.33" />
+        <entry key="..\:/Users/Chris/Documents/puredriveapp/app/src/main/res/layout/fragment_rental_sign_up2.xml" value="0.26875" />
+        <entry key="..\:/Users/Chris/Documents/puredriveapp/app/src/main/res/layout/fragment_rental_sign_up3.xml" value="0.26875" />
+        <entry key="..\:/Users/Chris/Documents/puredriveapp/app/src/main/res/layout/fragment_rental_sign_up4.xml" value="0.26875" />
+        <entry key="..\:/Users/Chris/Documents/puredriveapp/app/src/main/res/layout/fragment_staff_sign_up1.xml" value="0.1" />
+        <entry key="..\:/Users/Chris/Documents/puredriveapp/app/src/main/res/layout/fragment_staff_sign_up2.xml" value="0.19739583333333333" />
+        <entry key="..\:/Users/Chris/Documents/puredriveapp/app/src/main/res/layout/fragment_staff_sign_up3.xml" value="0.26875" />
+        <entry key="..\:/Users/Chris/Documents/puredriveapp/app/src/main/res/layout/fragment_staff_sign_up4.xml" value="0.26875" />
+        <entry key="..\:/Users/Chris/Documents/puredriveapp/app/src/main/res/layout/fragment_staff_sign_up5.xml" value="0.26875" />
         <entry key="..\:/Users/Chris/Documents/puredriveapp/app/src/main/res/layout/home_layout.xml" value="0.22" />
-        <entry key="..\:/Users/Chris/Documents/puredriveapp/app/src/main/res/layout/loc_filter.xml" value="0.13095238095238096" />
+        <entry key="..\:/Users/Chris/Documents/puredriveapp/app/src/main/res/layout/loc_filter.xml" value="0.25" />
         <entry key="..\:/Users/Chris/Documents/puredriveapp/app/src/main/res/layout/payment_1.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/Chris/Documents/puredriveapp/app/src/main/res/layout/payment_cash.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/Chris/Documents/puredriveapp/app/src/main/res/layout/payment_gcash.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/Chris/Documents/puredriveapp/app/src/main/res/layout/payment_paymaya.xml" value="0.13095238095238096" />
         <entry key="..\:/Users/Chris/Documents/puredriveapp/app/src/main/res/layout/price_filter_closed.xml" value="0.13095238095238096" />
+        <entry key="..\:/Users/Chris/Documents/puredriveapp/app/src/main/res/layout/price_filter_open.xml" value="0.26875" />
         <entry key="..\:/Users/Chris/Documents/puredriveapp/app/src/main/res/layout/rental_signup_1.xml" value="0.26875" />
         <entry key="..\:/Users/Chris/Documents/puredriveapp/app/src/main/res/layout/rental_signup_2.xml" value="0.26875" />
         <entry key="..\:/Users/Chris/Documents/puredriveapp/app/src/main/res/layout/rental_signup_3.xml" value="0.26875" />
+        <entry key="..\:/Users/Chris/Documents/puredriveapp/app/src/main/res/layout/rental_signup_4.xml" value="0.26875" />
+        <entry key="..\:/Users/Chris/Documents/puredriveapp/app/src/main/res/layout/rental_signup_5.xml" value="0.26875" />
         <entry key="..\:/Users/Chris/Documents/puredriveapp/app/src/main/res/layout/rental_signup_6.xml" value="0.26875" />
         <entry key="..\:/Users/Chris/Documents/puredriveapp/app/src/main/res/layout/staff_signup_1.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/Chris/Documents/puredriveapp/app/src/main/res/layout/staff_signup_2.xml" value="0.26927083333333335" />
@@ -80,6 +96,7 @@
         <entry key="..\:/Users/Chris/Documents/puredriveapp/app/src/main/res/layout/view_doc.xml" value="0.2545289855072464" />
         <entry key="..\:/Users/Chris/Documents/puredriveapp/app/src/main/res/layout/vpi_desc.xml" value="0.13095238095238096" />
         <entry key="..\:/Users/Chris/Documents/puredriveapp/app/src/main/res/layout/welcome.xml" value="0.22" />
+<<<<<<< HEAD
         <entry key="..\:/Users/jemma_6i2adz5/Documents/GitHub/puredriveapp/app/src/main/res/drawable/_bg__date_picking_shape.xml" value="0.1455" />
         <entry key="..\:/Users/jemma_6i2adz5/Documents/GitHub/puredriveapp/app/src/main/res/drawable/line_4.xml" value="0.1865" />
         <entry key="..\:/Users/jemma_6i2adz5/Documents/GitHub/puredriveapp/app/src/main/res/drawable/line_5.xml" value="0.1865" />
@@ -143,6 +160,8 @@
         <entry key="..\:/Users/jemma_6i2adz5/Documents/GitHub/puredriveapp/app/src/main/res/layout/status_3.xml" value="0.25" />
         <entry key="..\:/Users/jemma_6i2adz5/Documents/GitHub/puredriveapp/app/src/main/res/layout/verify_docs.xml" value="0.25" />
         <entry key="..\:/Users/jemma_6i2adz5/Documents/GitHub/puredriveapp/app/src/main/res/layout/view_doc_updated.xml" value="0.25" />
+=======
+>>>>>>> 330443e55bfe977f3ff05bda7b47d10f48072c2a
         <entry key="..\:/puredriveapp/app/src/main/res/drawable-nodpi/color_shape.xml" value="0.316" />
         <entry key="..\:/puredriveapp/app/src/main/res/drawable-v24/_bg__messages___conversations_list___light___iphone_shape.xml" value="0.316" />
         <entry key="..\:/puredriveapp/app/src/main/res/drawable-v24/avatar_mask_ek1_shape.xml" value="0.316" />

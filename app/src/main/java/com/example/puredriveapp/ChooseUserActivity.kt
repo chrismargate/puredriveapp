@@ -3,9 +3,10 @@ package com.example.puredriveapp
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import androidx.fragment.app.Fragment
 import kotlinx.android.synthetic.main.welcome_2.*
 
-class ChooseUserActivity : AppCompatActivity() {
+class ChooseUserActivity : AppCompatActivity(), UserCommunicator {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -30,4 +31,6 @@ class ChooseUserActivity : AppCompatActivity() {
         intent.putExtra("User type",userType)
         startActivity(intent)
     }
+
+
 }

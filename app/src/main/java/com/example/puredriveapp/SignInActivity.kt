@@ -23,7 +23,7 @@ class SignInActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sign_in)
         progressBar = findViewById<ProgressBar>(R.id.progressBar) as ProgressBar
-
+        tvLoginTitle.text = intent.getStringExtra("User Type")
         btnSignIn.setOnClickListener{
             tvLoginTitle.text = "Logging in.."
             progressBar!!.setProgress(count)
@@ -32,7 +32,24 @@ class SignInActivity : AppCompatActivity() {
         }
 
         tvSignUp.setOnClickListener{
-            loadSignUpActivity()
+            //loadSignUpActivity()
+
+            val userType = intent.getStringExtra("User Type")
+
+            when (userType){
+                "Customer" -> {
+                    startActivity(Intent(this,CustomerSignUpActivity::class.java))
+                }
+
+                "Staff" -> {
+                    //tvLoginTitle.text = "I clicked this"
+                    startActivity(Intent(this,StaffSignUpActivity::class.java))
+                }
+
+                "Rental" -> {
+                    startActivity(Intent(this,RentalSignUpActivity::class.java))
+                }
+            }
         }
     }
 
@@ -96,7 +113,7 @@ class SignInActivity : AppCompatActivity() {
         val intent = Intent(this,MainActivity::class.java)
         startActivity(intent)
     }
-
+/*
     private fun loadSignUpActivity(){
 
         userType = intent.getStringExtra("User type").toString()
@@ -108,11 +125,9 @@ class SignInActivity : AppCompatActivity() {
         if (userType == "Staff"){
 
         }
-
-        if (userType == "Rental"){
-            startActivity(Intent(this,RentalSignUp1Activity::class.java))
-        }
     }
+
+ */
 
     data class User(
         var UserID: Int = 0,

@@ -6,8 +6,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".fragments.RentalSignUp4Fragment">
 
-
-
     <ImageButton
         android:id="@+id/ibtnBack"
         android:layout_width="wrap_content"
