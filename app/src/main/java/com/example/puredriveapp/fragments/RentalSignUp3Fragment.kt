@@ -14,10 +14,10 @@ private const val ARG_PARAM2 = "param2"
 
 /**
  * A simple [Fragment] subclass.
- * Use the [FragmentRentalSignUp3.newInstance] factory method to
+ * Use the [RentalSignUp3Fragment.newInstance] factory method to
  * create an instance of this fragment.
  */
-class FragmentRentalSignUp3 : Fragment() {
+class RentalSignUp3Fragment : Fragment() {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null

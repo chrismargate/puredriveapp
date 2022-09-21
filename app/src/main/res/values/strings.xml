@@ -37,6 +37,133 @@
 
     <string name="b3_l21_mont">B3 L21 Monte Bleu Executive Village\nMonte Bleu Ave., Quezon City</string>
 
+    <string name="app_name">puredriveappfrontend</string>
+
+    <string name="daily">Daily</string>
+
+    <string name="weekly">Weekly</string>
+
+    <string name="monthly">Monthly</string>
+
+    <string name="clear_all_f">Clear all filters</string>
+
+    <string name="filter">Filter</string>
+
+    <string name="price">Price</string>
+
+    <string name="minimum_pri">Minimum price</string>
+
+    <string name="maximum_pri">Maximum price</string>
+
+    <string name="messages">Messages</string>
+
+    <string name="some_id">+</string>
+
+    <string name="search_">Search...</string>
+
+    <string name="history">History</string>
+
+    <string name="you_have_no">You have no previous bookings yet.</string>
+
+    <string name="user_num">+639 12 345 6789</string>
+
+    <string name="fran_sorian">Fran Soriano</string>
+
+    <string name="current_boo">Current Bookings</string>
+
+    <string name="billing_add">Billing Address</string>
+
+    <string name="b3_l21_mont">B3 L21 Monte Bleu Executive Village\nMonte Bleu Ave., Quezon City</string>
+
+    <string name="fran_peter_">Fran Peter Csar Tapales Soriano</string>
+
+    <string name="ek_img_content">ExportKit Image</string>
+
+    <string name="january_string">January</string>
+
+    <string name="_1_string">Mon</string>
+
+    <string name="_1_ek1_string">Tue</string>
+
+    <string name="_1_ek2_string">Wed</string>
+
+    <string name="_1_ek3_string">Thu</string>
+
+    <string name="_1_ek4_string">Fri</string>
+
+    <string name="_1_ek5_string">Sat</string>
+
+    <string name="_1_ek6_string">Sun</string>
+
+    <string name="_1_ek7_string">31</string>
+
+    <string name="_1_ek8_string">1</string>
+
+    <string name="_1_ek9_string">2</string>
+
+    <string name="_1_ek10_string">3</string>
+
+    <string name="_1_ek11_string">4</string>
+
+    <string name="_1_ek12_string">5</string>
+
+    <string name="_1_ek13_string">6</string>
+
+    <string name="_1_ek14_string">7</string>
+
+    <string name="_1_ek15_string">8</string>
+
+    <string name="_1_ek16_string">9</string>
+
+    <string name="_1_ek17_string">10</string>
+
+    <string name="_1_ek18_string">11</string>
+
+    <string name="_1_ek19_string">12</string>
+
+    <string name="_1_ek20_string">13</string>
+
+    <string name="_1_ek21_string">14</string>
+    <string name="_1_ek22_string">15</string>
+    <string name="_1_ek23_string">16</string>
+    <string name="_1_ek24_string">17</string>
+    <string name="_1_ek25_string">18</string>
+    <string name="_1_ek26_string">19</string>
+    <string name="_1_ek27_string">20</string>
+    <string name="_1_ek28_string">21</string>
+    <string name="_1_ek29_string">22</string>
+    <string name="_1_ek30_string">23</string>
+    <string name="_1_ek31_string">24</string>
+    <string name="_1_ek32_string">25</string>
+    <string name="_1_ek33_string">26</string>
+    <string name="_1_ek34_string">27</string>
+    <string name="_1_ek35_string">28</string>
+    <string name="_1_ek36_string">29</string>
+    <string name="_1_ek37_string">30</string>
+    <string name="_1_ek38_string">1</string>
+    <string name="_1_ek39_string">2</string>
+    <string name="_1_ek40_string">3</string>
+    <string name="_1_ek41_string">4</string>
+    <string name="jan_18_string">Jan 18</string>
+    <string name="jan_20_string">Jan 20</string>
+    <string name="friday_string">Friday</string>
+    <string name="sunday_string">Sunday</string>
+    <string name="confirm_string">Confirm</string>
+    <string name="_3_days_selected_string">3 days selected</string>
+    <string name="clear_string">Clear</string>
+    <string name="rent">+639 12 345 RENT</string>
+    <string name="czr_rental_">CZR Rental Services</string>
+    <string name="business_ad">Business Address</string>
+    <string name="hello_renta">hello@rental.com.ph</string>
+    <string name="nissan">Nissan</string>
+    <string name="toyota">Toyota</string>
+    <string name="honda">Honda</string>
+    <string name="tesla">Tesla</string>
+    <string name="suzuki">Suzuki</string>
+    <string name="bmw">BMW</string>
+    <string name="volkswagen">Volkswagen</string>
+    <string name="rate_0">0</string>
+
     <string name="fran_peter_">Fran Peter Csar T. Soriano</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

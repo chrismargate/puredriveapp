@@ -9,4 +9,9 @@
     <color name="white">#FFFFFFFF</color>
     <color name="color_ek1_color">#3C3C43</color>
     <color name="name_color">#000></color>
+    <color name="_bg__date_picking_color">#FFFFFF</color>
+    <color name="january_color">#000000</color>
+    <color name="_1_color">#9C9D9F</color>
+    <color name="_1_ek9_color">#167D7F</color>
+    <color name="back_rectangle_color">#ffffff</color>
 </resources>
