@@ -8,7 +8,7 @@
     tools:context=".Brand_filter">
 
     <ImageButton
-        android:id="@+id/back_button"
+        android:id="@+id/ibtnBack"
         tools:ignore="SpeakableTextPresentCheck"
         android:layout_width="54dp"
         android:layout_height="54dp"
@@ -60,8 +60,8 @@
 
     <View
         android:id="@+id/down_arrow_button"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
+        android:layout_width="19dp"
+        android:layout_height="19dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="304dp"
@@ -122,7 +122,7 @@
         app:layout_constraintVertical_bias="0.829" />
 
     <TextView
-        android:id="@+id/clear_filter_button"
+        android:id="@+id/ibtnClear"
         android:layout_width="302dp"
         android:layout_height="33dp"
         android:layout_alignParentLeft="true"
@@ -149,7 +149,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/filter"
+        android:id="@+id/ibtnback"
         android:layout_width="302dp"
         android:layout_height="36dp"
         android:layout_alignParentLeft="true"

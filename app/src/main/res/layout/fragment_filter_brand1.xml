@@ -4,10 +4,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".fragments.FilterBrand1Fragment">
 
     <ImageButton
-        android:id="@+id/back_button2"
+        android:id="@+id/ibtnBack"
         tools:ignore="SpeakableTextPresentCheck"
         android:layout_width="54dp"
         android:layout_height="54dp"
@@ -21,7 +22,7 @@
         app:srcCompat="@drawable/ico_back" />
 
     <ImageButton
-        android:id="@+id/close_"
+        android:id="@+id/close_button"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_alignParentLeft="true"
@@ -33,7 +34,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/line_"
+        android:id="@+id/line"
         android:layout_width="299dp"
         android:layout_height="0dp"
         android:layout_alignParentLeft="true"
@@ -47,8 +48,8 @@
 
     <View
         android:id="@+id/brand_recta"
-        android:layout_width="304dp"
-        android:layout_height="54dp"
+        android:layout_width="302dp"
+        android:layout_height="57dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="44dp"
@@ -58,9 +59,9 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <View
-        android:id="@+id/down_arrow_"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
+        android:id="@+id/down_arrow_button"
+        android:layout_width="19dp"
+        android:layout_height="19dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="304dp"
@@ -70,23 +71,25 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/sel_rental"
+        android:id="@+id/brand_select"
         android:layout_width="140dp"
         android:layout_height="30dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="44dp"
-        android:layout_marginTop="200dp"
         android:fontFamily="@font/jost"
         android:gravity="center_horizontal|top"
-        android:text="Select Model"
+        android:text="Select brand"
         android:textAppearance="@style/price"
         android:textColor="#A3A3A3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.236"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.285" />
 
     <TextView
-        android:id="@+id/rental_fil"
+        android:id="@+id/brand_filter"
         android:layout_width="140dp"
         android:layout_height="30dp"
         android:layout_alignParentLeft="true"
@@ -95,7 +98,7 @@
         android:layout_marginTop="136dp"
         android:fontFamily="@font/jost"
         android:gravity="center_horizontal|top"
-        android:text="Model"
+        android:text="Brand"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textSize="17sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -103,27 +106,29 @@
 
     <!-- Monthly -->
 
+    <!-- Clear all filters -->
+
     <View
         android:id="@+id/rectangle_4"
         android:layout_width="355dp"
         android:layout_height="40dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="732dp"
         android:background="@drawable/rectangle_4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.829" />
 
-    <!-- Clear all filters -->
     <TextView
-        android:id="@+id/clear_all_f"
+        android:id="@+id/ibtnClear"
         android:layout_width="302dp"
         android:layout_height="33dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="736dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="580dp"
         android:fontFamily="@font/jost"
         android:gravity="center_horizontal|top"
         android:text="Clear Filter"
@@ -137,20 +142,20 @@
         android:layout_height="40dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="780dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="640dp"
         android:background="@drawable/rectangle_4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/filter"
+        android:id="@+id/ibtnback"
         android:layout_width="302dp"
         android:layout_height="36dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="44dp"
-        android:layout_marginTop="784dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="644dp"
         android:fontFamily="@font/jost"
         android:gravity="center_horizontal|top"
         android:text="Back"
@@ -162,9 +167,9 @@
         android:id="@+id/imageView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="120dp"
-        android:layout_marginTop="15dp"
-        app:layout_constraintStart_toEndOf="@+id/rental_fil"
-        app:layout_constraintTop_toBottomOf="@+id/line_"
+        android:layout_marginStart="304dp"
+        android:layout_marginTop="140dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/up_arrow" />
 </androidx.constraintlayout.widget.ConstraintLayout>
