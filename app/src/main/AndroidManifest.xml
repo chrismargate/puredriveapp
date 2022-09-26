@@ -15,100 +15,91 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Puredriveapp"
         tools:targetApi="31">
-        <activity
-            android:name=".SampleActivity"
-            android:label="SampleActivity"/>
         <!--
-        <activity
-            android:name=".MainActivity"
-            android:label="MainActivity"/>
-        -->
-
+         <activity
+             android:name=".ActivityStaffMain"
+             android:exported="false" />
+             -->
+         <activity
+             android:name=".SampleActivity"
+             android:label="SampleActivity" />
+         <!--
+         <activity
+             android:name=".MainActivity"
+             android:label="MainActivity"/>
+         -->
         <activity
             android:name=".CustomerSignUp1Activity"
-            android:label="CustomerSignUp1Activity"/>
-
+            android:label="CustomerSignUp1Activity" />
         <activity
             android:name=".CustomerSignUp2Activity"
-            android:label="CustomerSignUp2Activity"/>
-
+            android:label="CustomerSignUp2Activity" />
         <activity
             android:name=".ChooseUserActivity"
-            android:label="ChooseUserActivity"/>
-
+            android:label="ChooseUserActivity" />
         <activity
             android:name=".PaymentCashActivity"
-            android:label="payment_cash"/>
-
+            android:label="payment_cash" />
         <activity
             android:name=".payment_gcash"
-            android:label="payment_gcash"/>
-
+            android:label="payment_gcash" />
         <activity
             android:name=".payment_paymaya"
-            android:label="payment_paymaya"/>
-
+            android:label="payment_paymaya" />
         <activity
             android:name=".PaymentActivity"
-            android:label="payment_1"/>
-
+            android:label="payment_1" />
         <activity
             android:name=".booking_availability"
-            android:label="booking_availability"/>
-
+            android:label="booking_availability" />
         <activity
             android:name=".vpi_desc"
-            android:label="vpi_desc"/>
-
+            android:label="vpi_desc" />
         <activity
             android:name=".supra_desc"
-            android:label="supra_desc"/>
-
+            android:label="supra_desc" />
         <activity
             android:name=".supra_desc_2"
-            android:label="supra_desc_2"/>
-
+            android:label="supra_desc_2" />
         <activity
             android:name=".view_doc"
-            android:label="view_doc"/>
-
+            android:label="view_doc" />
         <activity
             android:name=".UploadFilesActivity"
-            android:label="UploadFilesActivity"/>
-
+            android:label="UploadFilesActivity" />
         <activity
             android:name=".SignInActivity"
-            android:label="SignInActivity"/>
-
+            android:label="SignInActivity" />
         <activity
             android:name=".MainActivity"
-            android:label="MainActivity"/>
-
+            android:label="MainActivity" />
         <activity
             android:name=".SupraDescActivity"
-            android:label="SupraDescActivity"/>
-
+            android:label="SupraDescActivity" />
         <activity
             android:name=".CustomerSignUpActivity"
-            android:label="CustomerSignUpActivity"/>
-
+            android:label="CustomerSignUpActivity" />
         <activity
             android:name=".StaffSignUpActivity"
-            android:label="StaffSignUpActivity"/>
-
+            android:label="StaffSignUpActivity" />
         <activity
             android:name=".RentalSignUpActivity"
-            android:label="RentalSignUpActivity"/>
-
+            android:label="RentalSignUpActivity" />
         <activity
             android:name=".GetStartedActivity"
-            android:label="GetStartedActivity"
-            android:exported="true">
+            android:label="GetStartedActivity" />
+
+        <activity
+            android:name=".ActivityStaffMain"
+            android:exported="true"
+            android:label="ActivityStaffMain">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />

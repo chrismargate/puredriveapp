@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/staffnav"
+    app:startDestination="@id/Home3Fragment">
+
+    <fragment
+        android:id="@+id/Home3Fragment"
+        android:name="com.example.puredriveapp.FirstFragment"
+        android:label="fragment_first"
+        tools:layout="@layout/fragment_home3" />
+    <fragment
+        android:id="@+id/MessageFragment"
+        android:name="com.example.puredriveapp.MessageFragment"
+        android:label="fragment_message"
+        tools:layout="@layout/fragment_message" />
+    <fragment
+        android:id="@+id/BookingFragment"
+        android:name="com.example.puredriveapp.BookingFragment"
+        android:label="fragment_booking"
+        tools:layout="@layout/fragment_booking" />
+    <fragment
+        android:id="@+id/RentalFragment"
+        android:name="com.example.puredriveapp.RentalFragment"
+        android:label="fragment_rental"
+        tools:layout="@layout/fragment_rental" />
+    <fragment
+        android:id="@+id/SettingFragment"
+        android:name="com.example.puredriveapp.SettingFragment"
+        android:label="fragment_setting"
+        tools:layout="@layout/fragment_setting" />
+</navigation>

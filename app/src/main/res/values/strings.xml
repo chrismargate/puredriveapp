@@ -118,6 +118,8 @@
     <string name="rate_0">0</string>
 
     <string name="fran_peter_">Fran Peter Csar T. Soriano</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
     <!-- TODO: Remove or change this placeholder text
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_main2">MainActivity2</string>
