@@ -12,14 +12,12 @@ import com.example.puredriveapp.R
 private const val ARG_PARAM1 = "param1"
 private const val ARG_PARAM2 = "param2"
 
-<<<<<<< HEAD
 /**
  * A simple [Fragment] subclass.
  * Use the [RentalSignUp3Fragment.newInstance] factory method to
  * create an instance of this fragment.
  */
-=======
->>>>>>> 330443e55bfe977f3ff05bda7b47d10f48072c2a
+
 class RentalSignUp3Fragment : Fragment() {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
