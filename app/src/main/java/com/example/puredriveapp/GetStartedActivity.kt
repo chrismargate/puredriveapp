@@ -13,7 +13,7 @@ class GetStartedActivity : AppCompatActivity(), GetStartedCommunicator {
     /*
     Chris SDK : sdk.dir=C\:\\Users\\Chris\\AppData\\Local\\Android\\Sdk
     Jemma SDK : sdk.dir=C\:\\Users\\jemma_6i2adz5\\AppData\\Local\\Android\\Sdk
-
+    Hello this is a sample to try out merging
      */
 
     override fun onCreate(savedInstanceState: Bundle?) {
