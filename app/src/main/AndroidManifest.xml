@@ -102,7 +102,11 @@
 
         <activity
             android:name=".GetStartedActivity"
-            android:label="GetStartedActivity"
+            android:label="GetStartedActivity"/>
+
+        <activity
+            android:name=".QRCodeActivity"
+            android:label="QRCodeActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
