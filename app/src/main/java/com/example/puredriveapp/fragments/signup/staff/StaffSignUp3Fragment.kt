@@ -53,7 +53,7 @@ class StaffSignUp3Fragment : Fragment() {
         // test code
         val sample_string: String = userData.Fname + " " + userData.Lname + " " + userData.DateOfBirth + " " + userData.Gender + " " + userData.EmailAddress + " " + userData.PhoneNo + " " + userData.Username + " " + userData.Password
         Toast.makeText(activity,sample_string ,Toast.LENGTH_LONG).show()
-
+        /*
         view.ibtnNext.setOnClickListener {
             Toast.makeText(activity, "You clicked this", Toast.LENGTH_LONG).show()
 
@@ -66,7 +66,7 @@ class StaffSignUp3Fragment : Fragment() {
             nextFragment.arguments = bundle
             communicator.loadNextFragment(R.id.frameStaffSignUp,nextFragment)
 
-        }
+        }  */
 
 
         return view
