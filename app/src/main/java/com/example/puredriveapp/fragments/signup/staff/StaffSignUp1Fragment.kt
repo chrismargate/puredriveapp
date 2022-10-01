@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ArrayAdapter
 import android.widget.Toast
 import com.example.puredriveapp.R
 import com.example.puredriveapp.dataclasses.*
@@ -27,8 +28,13 @@ class StaffSignUp1Fragment : Fragment() {
     private var param1: String? = null
     private var param2: String? = null
 
-    private lateinit var communicator: StaffSignUpCommunicator
+    /*
+    private var _binding: FragmentStaffSignUp1Binding? = null
+    private val binding get() = _binding!!
 
+     */
+
+    private lateinit var communicator: StaffSignUpCommunicator
     private lateinit var userData: User
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -46,7 +52,15 @@ class StaffSignUp1Fragment : Fragment() {
         // Inflate the layout for this fragment
         val view =  inflater.inflate(R.layout.fragment_staff_sign_up1, container, false)
 
-        val bundle = Bundle()
+        /*
+        _binding = FragmentStaffSignUp1Binding.inflate(inflater, container, false)
+
+        val gender = resources.getStringArray(R.array.Gender)
+        val arrayAdapter = ArrayAdapter(requireContext(),R.layout.dropdown_item, gender)
+        binding.actvGender.setAdapter(arrayAdapter)
+        */
+
+        var bundle = Bundle()
         communicator = activity as StaffSignUpCommunicator
         var nextFragment = StaffSignUp2Fragment()
         userData = User()
@@ -54,10 +68,11 @@ class StaffSignUp1Fragment : Fragment() {
         view.ibtnNext.setOnClickListener{
             Toast.makeText(activity, "You clicked this", Toast.LENGTH_LONG).show()
 
+            // takes user input from text fields and stores in a user class
             userData.Fname = view.staff_firstName.text.toString()
             userData.Lname = view.staff_lastName.text.toString()
             userData.DateOfBirth = view.staff_dateBirth.text.toString()
-            userData.Gender = view.staff_gender.text.toString()
+            //userData.Gender = view.staff_gender.text.toString()
 
             bundle.putParcelable("User Data", userData)
             nextFragment.arguments = bundle

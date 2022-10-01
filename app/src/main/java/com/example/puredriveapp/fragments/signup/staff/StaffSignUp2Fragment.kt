@@ -46,7 +46,7 @@ class StaffSignUp2Fragment : Fragment() {
         // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.fragment_staff_sign_up2, container, false)
 
-        val bundle = Bundle()
+        var bundle = Bundle()
         communicator = activity as StaffSignUpCommunicator
         var nextFragment = StaffSignUp3Fragment()
         userData = User()

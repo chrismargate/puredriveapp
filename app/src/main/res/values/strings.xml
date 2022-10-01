@@ -69,6 +69,12 @@
 
     <string name="_1_ek20_string">13</string>
 
+    <string-array name="Gender">
+        <item>Female</item>
+        <item>Male</item>
+        <item>Prefer not to say</item>
+    </string-array>
+
     <string name="_1_ek21_string">14</string>
     <string name="_1_ek22_string">15</string>
     <string name="_1_ek23_string">16</string>

@@ -107,6 +107,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <!--
     <EditText
         android:id="@+id/staff_gender"
         style="@style/Widget.AppCompat.AutoCompleteTextView"
@@ -118,6 +119,7 @@
         android:textColor="#FFFFFF"
         app:layout_constraintStart_toStartOf="@+id/textView6"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
+-->
 
     <TextView
         android:id="@+id/textView6"
@@ -180,5 +182,29 @@
         android:text="Already have an account? Sign in"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+    <!--
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="452dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <AutoCompleteTextView
+            android:id="@+id/actvGender"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:inputType="none"
+            android:text="Male" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    -->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -89,10 +89,6 @@
             android:label="CustomerSignUpActivity"/>
 
         <activity
-            android:name=".StaffSignUpActivity"
-            android:label="StaffSignUpActivity"/>
-
-        <activity
             android:name=".RentalSignUpActivity"
             android:label="RentalSignUpActivity"/>
 
@@ -103,10 +99,14 @@
         <activity
             android:name=".GetStartedActivity"
             android:label="GetStartedActivity"/>
-        
+
         <activity
             android:name=".SignInActivity"
-            android:label="SignInActivity"
+            android:label="SignInActivity"/>
+        
+        <activity
+            android:name=".StaffSignUpActivity"
+            android:label="StaffSignUpActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
