@@ -45,7 +45,9 @@ class SignInActivity : AppCompatActivity() {
         tvSignUp.setOnClickListener{
 
             // Gets the user type passed from previous activity
-            val userType = intent.getStringExtra("User Type")
+            //val userType = intent.getStringExtra("User Type")
+
+            val userType = "Staff"
 
             when (userType){
                 "Customer" -> {
@@ -66,6 +68,8 @@ class SignInActivity : AppCompatActivity() {
     private fun fetchLogin() {
 
         val enteredUsername = etUsername.text.toString()
+        val enteredPassword = etPassword.text.toString()
+
         val url = "https://my-python-test-api.herokuapp.com/api/user/"
 
         // String builder to append the url and the username entered to fetch in API
@@ -89,33 +93,39 @@ class SignInActivity : AppCompatActivity() {
                     val gson = GsonBuilder().create()
 
                     val user = gson.fromJson(body, User::class.java)
-                    val username: String = user.Username.toString()
-                    val password: String = user.Password.toString()
-                    val firstName: String = user.Fname.toString()
 
-                    loginUser.Username = username
-                    loginUser.Password = password
+                    /*
+                   if(user.Username.toString() == ""){
+                       loginUser.Username = "nothing"
+                   }else {
+                       loginUser.Username = user.Username.toString()
+                       loginUser.Password = user.Password.toString()
+                       loginUser.Fname = user.Fname.toString()
+                    }
+                     */
+
                 }catch (e: Exception){
                     e.printStackTrace()
                 }
 
                 // Runs on the main thread
                 runOnUiThread{
-                    val Username = loginUser.Username
-                    val Password = loginUser.Password
-                    val enteredUsername = etUsername.text.toString()
-                    val enteredPassword = etPassword.text.toString()
-
                     // For loading animation
                     count = 100
                     progressBar!!.setProgress(count)
                     progressBar!!.visibility = View.INVISIBLE
 
+                    loginUser.Username = "sampol"
+                    loginUser.Password = "sampol"
+                    loginUser.Fname = "sampol"
 
                     // User validation
-                    if(Username == enteredUsername) {
-                        if (Password == enteredPassword) {
-                            Toast.makeText(applicationContext, "Login successful", Toast.LENGTH_LONG).show()
+                    if(loginUser.Username == enteredUsername) {
+                        if (loginUser.Password == enteredPassword) {
+                            println(loginUser.Username + " " + enteredUsername)
+                            println(loginUser.Password + " " + enteredPassword)
+                            //Toast.makeText(applicationContext, "Login successful", Toast.LENGTH_LONG).show()
+                            Toast.makeText(applicationContext, loginUser.Username + " " + enteredUsername, Toast.LENGTH_LONG).show()
                             loadMainActivity()
                         } else {
                             Toast.makeText(applicationContext, "Incorrect Password", Toast.LENGTH_LONG).show()

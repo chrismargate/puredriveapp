@@ -101,12 +101,12 @@
             android:label="SignUpActivity"/>
 
         <activity
-            android:name=".SignInActivity"
-            android:label="SignInActivity"/>
+            android:name=".GetStartedActivity"
+            android:label="GetStartedActivity"/>
         
         <activity
-            android:name=".GetStartedActivity"
-            android:label="GetStartedActivity"
+            android:name=".SignInActivity"
+            android:label="SignInActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
