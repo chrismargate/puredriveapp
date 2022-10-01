@@ -1,4 +1,4 @@
-package com.example.puredriveapp
+package com.example.puredriveapp.interfaces
 
 import androidx.fragment.app.Fragment
 

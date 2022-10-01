@@ -1,4 +1,4 @@
-package com.example.puredriveapp.fragments
+package com.example.puredriveapp.fragments.signup.staff
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.puredriveapp.R
+import kotlinx.android.synthetic.main.fragment_staff_sign_up1.view.*
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -14,10 +15,10 @@ private const val ARG_PARAM2 = "param2"
 
 /**
  * A simple [Fragment] subclass.
- * Use the [StaffSignUp3Fragment.newInstance] factory method to
+ * Use the [StaffSignUp2Fragment.newInstance] factory method to
  * create an instance of this fragment.
  */
-class StaffSignUp3Fragment : Fragment() {
+class StaffSignUp1Fragment : Fragment() {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
@@ -35,7 +36,13 @@ class StaffSignUp3Fragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_staff_sign_up3, container, false)
+        val view =  inflater.inflate(R.layout.fragment_staff_sign_up1, container, false)
+
+        view.ibtnNext.setOnClickListener{
+
+        }
+
+        return view
     }
 
     companion object {
@@ -45,12 +52,12 @@ class StaffSignUp3Fragment : Fragment() {
          *
          * @param param1 Parameter 1.
          * @param param2 Parameter 2.
-         * @return A new instance of fragment StaffSignUp3Fragment.
+         * @return A new instance of fragment StaffSignUp2Fragment.
          */
         // TODO: Rename and change types and number of parameters
         @JvmStatic
         fun newInstance(param1: String, param2: String) =
-            StaffSignUp3Fragment().apply {
+            StaffSignUp2Fragment().apply {
                 arguments = Bundle().apply {
                     putString(ARG_PARAM1, param1)
                     putString(ARG_PARAM2, param2)

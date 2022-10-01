@@ -7,6 +7,7 @@ import android.widget.ProgressBar
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.puredriveapp.R
+import com.example.puredriveapp.dataclasses.*
 import com.google.gson.GsonBuilder
 import kotlinx.android.synthetic.main.activity_sign_in.*
 import okhttp3.*
@@ -14,26 +15,36 @@ import okio.IOException
 import java.util.*
 
 class SignInActivity : AppCompatActivity() {
+
+    // For loading animation
     var progressBar: ProgressBar? = null
     var count = 1
+
+    // For user
     var loginUser = User()
     lateinit var userType: String
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sign_in)
+
         progressBar = findViewById<ProgressBar>(R.id.progressBar) as ProgressBar
-        tvLoginTitle.text = intent.getStringExtra("User Type")
+
+        // Sign in button action when clicked
         btnSignIn.setOnClickListener{
-            tvLoginTitle.text = "Logging in.."
+
+            // Login indicator
+            Toast.makeText(applicationContext, "Logging in..", Toast.LENGTH_LONG).show()
             progressBar!!.setProgress(count)
             progressBar!!.visibility = View.VISIBLE
+
             fetchLogin()
         }
 
+        // Checks the type of user and opens the sign up activity accordingly
         tvSignUp.setOnClickListener{
-            //loadSignUpActivity()
 
+            // Gets the user type passed from previous activity
             val userType = intent.getStringExtra("User Type")
 
             when (userType){
@@ -42,7 +53,6 @@ class SignInActivity : AppCompatActivity() {
                 }
 
                 "Staff" -> {
-                    //tvLoginTitle.text = "I clicked this"
                     startActivity(Intent(this,StaffSignUpActivity::class.java))
                 }
 
@@ -56,10 +66,20 @@ class SignInActivity : AppCompatActivity() {
     private fun fetchLogin() {
 
         val enteredUsername = etUsername.text.toString()
-        val url = "https://my-python-test-api.herokuapp.com/api/login/customer/" + enteredUsername
-        val request = Request.Builder().url(url).build()
-        val client = OkHttpClient()
+        val url = "https://my-python-test-api.herokuapp.com/api/user/"
 
+        // String builder to append the url and the username entered to fetch in API
+        val urlBuilder = StringBuilder()
+        urlBuilder.append(url)
+            .append(enteredUsername)
+
+        // val url = "http://127.0.0.1:5000/api/customer/"
+
+        Toast.makeText(applicationContext, "Logging in..", Toast.LENGTH_LONG).show()
+
+        // Sends request
+        val request = Request.Builder().url(urlBuilder.toString()).build()
+        val client = OkHttpClient()
         client.newCall(request).enqueue(object: Callback {
             override fun onResponse(call: Call, response: Response) {
 
@@ -71,6 +91,7 @@ class SignInActivity : AppCompatActivity() {
                     val user = gson.fromJson(body, User::class.java)
                     val username: String = user.Username.toString()
                     val password: String = user.Password.toString()
+                    val firstName: String = user.Fname.toString()
 
                     loginUser.Username = username
                     loginUser.Password = password
@@ -78,32 +99,35 @@ class SignInActivity : AppCompatActivity() {
                     e.printStackTrace()
                 }
 
+                // Runs on the main thread
                 runOnUiThread{
-                    // tvLoginTitle.text = "Fetched.."
                     val Username = loginUser.Username
                     val Password = loginUser.Password
                     val enteredUsername = etUsername.text.toString()
                     val enteredPassword = etPassword.text.toString()
 
+                    // For loading animation
                     count = 100
                     progressBar!!.setProgress(count)
                     progressBar!!.visibility = View.INVISIBLE
 
+
+                    // User validation
                     if(Username == enteredUsername) {
                         if (Password == enteredPassword) {
-                            tvLoginTitle.text = "Logged in successfully"
+                            Toast.makeText(applicationContext, "Login successful", Toast.LENGTH_LONG).show()
                             loadMainActivity()
                         } else {
-                            tvLoginTitle.text = "Incorrect Password"
+                            Toast.makeText(applicationContext, "Incorrect Password", Toast.LENGTH_LONG).show()
                         }
                     } else {
-                        tvLoginTitle.text = "Invalid Username"
+                        Toast.makeText(applicationContext, "Invalid Username", Toast.LENGTH_LONG).show()
                     }
                 }
 
             }
             override fun onFailure(call: Call, e: IOException) {
-                println("Failed to execute request")
+                Toast.makeText(applicationContext, "Invalid Username", Toast.LENGTH_LONG).show()
             }
         })
 
@@ -127,7 +151,7 @@ class SignInActivity : AppCompatActivity() {
         }
     }
 
- */
+
 
     data class User(
         var UserID: Int = 0,
@@ -148,5 +172,5 @@ class SignInActivity : AppCompatActivity() {
     data class Customer(val customerID: Int, val userID: Int, val billingLocationID: Int, val shippingLocationID: Int, val recentSearch: String, val lastRentedVehicle: Int, val lastUsedPayment: String)
 
     data class Location(val locationID: Int, val lotno: String, val addressline: String, val addressline2: String, val state: String, val city: String, val country: String, val zipcode: String)
-
+ */
 }

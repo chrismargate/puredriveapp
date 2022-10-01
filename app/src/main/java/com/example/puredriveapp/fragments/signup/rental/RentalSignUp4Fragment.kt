@@ -1,4 +1,4 @@
-package com.example.puredriveapp.fragments
+package com.example.puredriveapp.fragments.signup.rental
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

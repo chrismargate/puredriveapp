@@ -1,4 +1,4 @@
-package com.example.puredriveapp
+package com.example.puredriveapp.interfaces
 
 interface RentalSignUpCommunicator {
     fun getRentalData()

@@ -77,10 +77,6 @@
             android:label="UploadFilesActivity"/>
 
         <activity
-            android:name=".SignInActivity"
-            android:label="SignInActivity"/>
-
-        <activity
             android:name=".MainActivity"
             android:label="MainActivity"/>
 
@@ -99,6 +95,14 @@
         <activity
             android:name=".RentalSignUpActivity"
             android:label="RentalSignUpActivity"/>
+
+        <activity
+            android:name=".SignUpActivity"
+            android:label="SignUpActivity"/>
+
+        <activity
+            android:name=".SignInActivity"
+            android:label="SignInActivity"/>
         
         <activity
             android:name=".GetStartedActivity"

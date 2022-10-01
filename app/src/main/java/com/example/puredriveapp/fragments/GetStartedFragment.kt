@@ -5,7 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.puredriveapp.GetStartedCommunicator
+import com.example.puredriveapp.interfaces.GetStartedCommunicator
 import com.example.puredriveapp.R
 import kotlinx.android.synthetic.main.fragment_get_started.view.*
 

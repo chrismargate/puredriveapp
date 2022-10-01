@@ -1,4 +1,4 @@
-package com.example.puredriveapp
+package com.example.puredriveapp.dataclasses
 
 data class Rental(
     var RentalID: Int? = null,

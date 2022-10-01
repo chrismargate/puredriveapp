@@ -3,7 +3,7 @@ package com.example.puredriveapp
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import androidx.fragment.app.Fragment
+import com.example.puredriveapp.interfaces.UserCommunicator
 import kotlinx.android.synthetic.main.welcome_2.*
 
 class ChooseUserActivity : AppCompatActivity(), UserCommunicator {

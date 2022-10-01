@@ -5,18 +5,11 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.google.gson.GsonBuilder
-import kotlinx.android.synthetic.main.activity_sign_in.*
-import kotlinx.coroutines.delay
-import okhttp3.*
-import okio.IOException
 import java.util.*
-import androidx.appcompat.app.AppCompatActivity
 import android.content.Intent
+import com.example.puredriveapp.dataclasses.Vehicle
 import kotlinx.android.synthetic.main.fragment_home2.*
-import kotlinx.android.synthetic.main.home_layout.*
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER

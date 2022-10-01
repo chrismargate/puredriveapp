@@ -78,7 +78,7 @@
         android:id="@+id/tvLoginTitle"
         android:layout_width="266dp"
         android:layout_height="46dp"
-        android:text="Log in"
+        android:text="Sign in"
         android:textAlignment="center"
         android:textSize="25sp"
         app:layout_constraintBottom_toTopOf="@+id/etUsername"
