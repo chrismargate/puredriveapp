@@ -8,6 +8,10 @@ import android.view.ViewGroup
 import android.widget.Toast
 import com.example.puredriveapp.R
 import com.example.puredriveapp.dataclasses.User
+import com.example.puredriveapp.interfaces.StaffSignUpCommunicator
+import kotlinx.android.synthetic.main.fragment_staff_sign_up1.view.*
+import kotlinx.android.synthetic.main.fragment_staff_sign_up2.view.*
+import kotlinx.android.synthetic.main.fragment_staff_sign_up2.view.ibtnNext
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -24,6 +28,7 @@ class StaffSignUp2Fragment : Fragment() {
     private var param1: String? = null
     private var param2: String? = null
 
+    private lateinit var communicator: StaffSignUpCommunicator
     private lateinit var userData: User
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -41,13 +46,33 @@ class StaffSignUp2Fragment : Fragment() {
         // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.fragment_staff_sign_up2, container, false)
 
+        val bundle = Bundle()
+        communicator = activity as StaffSignUpCommunicator
+        var nextFragment = StaffSignUp3Fragment()
         userData = User()
 
         userData = arguments?.getParcelable<User>("User Data")!!;
 
+        /* test code
+        userData = arguments?.getParcelable<User>("User Data")!!;
         val sample_string: String = userData.Fname + " " + userData.Lname + " " + userData.DateOfBirth + " " + userData.Gender
-
         Toast.makeText(activity,sample_string ,Toast.LENGTH_LONG).show()
+
+         */
+
+        view.ibtnNext.setOnClickListener {
+            Toast.makeText(activity, "You clicked this", Toast.LENGTH_LONG).show()
+
+            userData.EmailAddress = view.staff_emailad.text.toString()
+            userData.PhoneNo = view.staff_phoneno.text.toString()
+            userData.Username = view.staff_username.text.toString()
+            userData.Password = view.staff_passw.text.toString()
+
+            bundle.putParcelable("User Data", userData)
+            nextFragment.arguments = bundle
+            communicator.loadNextFragment(R.id.frameStaffSignUp,nextFragment)
+        }
+
 
         return view
     }
