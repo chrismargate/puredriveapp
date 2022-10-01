@@ -18,55 +18,59 @@
         <activity
             android:name=".RentalProfile"
             android:exported="false" />
-        <!--
-         <activity
-             android:name=".ActivityStaffMain"
-             android:exported="false" />
-        -->
+
         <activity
             android:name=".SampleActivity"
             android:label="SampleActivity" />
-        <!--
-         <activity
-             android:name=".MainActivity"
-             android:label="MainActivity"/>
-        -->
+
         <activity
             android:name=".CustomerSignUp1Activity"
             android:label="CustomerSignUp1Activity" />
+
         <activity
             android:name=".CustomerSignUp2Activity"
             android:label="CustomerSignUp2Activity" />
+
         <activity
             android:name=".ChooseUserActivity"
             android:label="ChooseUserActivity" />
+
         <activity
             android:name=".PaymentCashActivity"
             android:label="payment_cash" />
+
         <activity
             android:name=".payment_gcash"
             android:label="payment_gcash" />
+
         <activity
             android:name=".payment_paymaya"
             android:label="payment_paymaya" />
+
         <activity
             android:name=".PaymentActivity"
             android:label="payment_1" />
+
         <activity
             android:name=".booking_availability"
             android:label="booking_availability" />
+
         <activity
             android:name=".vpi_desc"
             android:label="vpi_desc" />
+
         <activity
             android:name=".supra_desc"
             android:label="supra_desc" />
+
         <activity
             android:name=".supra_desc_2"
             android:label="supra_desc_2" />
+
         <activity
             android:name=".view_doc"
             android:label="view_doc" />
+
         <activity
             android:name=".UploadFilesActivity"
             android:label="UploadFilesActivity" />
