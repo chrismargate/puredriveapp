@@ -47,8 +47,6 @@ class SignInActivity : AppCompatActivity() {
             // Gets the user type passed from previous activity
             //val userType = intent.getStringExtra("User Type")
 
-            val userType = "Staff"
-
             when (userType){
                 "Customer" -> {
                     startActivity(Intent(this,CustomerSignUpActivity::class.java))
@@ -94,15 +92,9 @@ class SignInActivity : AppCompatActivity() {
 
                     val user = gson.fromJson(body, User::class.java)
 
-                    /*
-                   if(user.Username.toString() == ""){
-                       loginUser.Username = "nothing"
-                   }else {
-                       loginUser.Username = user.Username.toString()
-                       loginUser.Password = user.Password.toString()
-                       loginUser.Fname = user.Fname.toString()
-                    }
-                     */
+                    loginUser.Username = user.Username.toString()
+                    loginUser.Password = user.Password.toString()
+                    loginUser.Fname = user.Fname.toString()
 
                 }catch (e: Exception){
                     e.printStackTrace()
@@ -115,17 +107,13 @@ class SignInActivity : AppCompatActivity() {
                     progressBar!!.setProgress(count)
                     progressBar!!.visibility = View.INVISIBLE
 
-                    loginUser.Username = "sampol"
-                    loginUser.Password = "sampol"
-                    loginUser.Fname = "sampol"
-
                     // User validation
                     if(loginUser.Username == enteredUsername) {
                         if (loginUser.Password == enteredPassword) {
                             println(loginUser.Username + " " + enteredUsername)
                             println(loginUser.Password + " " + enteredPassword)
-                            //Toast.makeText(applicationContext, "Login successful", Toast.LENGTH_LONG).show()
-                            Toast.makeText(applicationContext, loginUser.Username + " " + enteredUsername, Toast.LENGTH_LONG).show()
+                            Toast.makeText(applicationContext, "Login successful", Toast.LENGTH_LONG).show()
+                            //Toast.makeText(applicationContext, loginUser.Username + " " + enteredUsername, Toast.LENGTH_LONG).show()
                             loadMainActivity()
                         } else {
                             Toast.makeText(applicationContext, "Incorrect Password", Toast.LENGTH_LONG).show()

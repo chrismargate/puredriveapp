@@ -97,16 +97,17 @@
             android:label="SignUpActivity"/>
 
         <activity
-            android:name=".GetStartedActivity"
-            android:label="GetStartedActivity"/>
+            android:name=".StaffSignUpActivity"
+            android:label="StaffSignUpActivity"/>
 
         <activity
             android:name=".SignInActivity"
             android:label="SignInActivity"/>
         
         <activity
-            android:name=".StaffSignUpActivity"
-            android:label="StaffSignUpActivity"
+
+            android:name=".GetStartedActivity"
+            android:label="GetStartedActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
