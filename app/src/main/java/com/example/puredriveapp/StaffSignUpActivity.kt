@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
+//import com.example.puredriveapp.databinding.ActivityStaffSignupBinding
 import com.example.puredriveapp.dataclasses.Staff
 import com.example.puredriveapp.dataclasses.User
 import com.example.puredriveapp.fragments.signup.staff.StaffSignUp1Fragment

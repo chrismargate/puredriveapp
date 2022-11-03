@@ -55,7 +55,7 @@ class SignInActivity : AppCompatActivity() {
                 }
 
                 "Staff" -> {
-                    startActivity(Intent(this,StaffSignUpActivity::class.java))
+                    //startActivity(Intent(this,StaffSignUpActivity::class.java))
                 }
 
                 "Rental" -> {
@@ -160,8 +160,6 @@ class SignInActivity : AppCompatActivity() {
 
         }
     }
-
-
 
     data class User(
         var UserID: Int = 0,
